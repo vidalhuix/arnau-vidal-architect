@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaArrowRight } from "react-icons/fa";
+import { FaLinkedin, FaInstagram } from "react-icons/fa";
 import { useState } from "react";
 import { FaCopy } from "react-icons/fa";
 
@@ -16,7 +16,7 @@ export const Contact = () => {
         <h1 className="mb-4 text-4xl font-bold text-center text-gray-800">
           For more
         </h1>
-        <div className="flex flex-row m-auto justify-between pt-6 max-w-[100px] w-full">
+        <div className="flex flex-row m-auto justify-center pt-6 max-w-[100px] w-full">
           <a
             href="https://www.linkedin.com/in/arnau-vidal-4266a940/"
             target="_blank"
@@ -26,12 +26,12 @@ export const Contact = () => {
               className="cursor-pointer scale-150 fill-[#9f1239]"
             />
           </a>
-          <a href="https://github.com/vidalhuix" target="_blank">
-            <FaGithub
-              size={33}
+          {/* <a href="https://github.com/vidalhuix" target="_blank">
+            <FaInstagram
+              size={35}
               className="cursor-pointer scale-150 fill-[#9f1239]"
             />
-          </a>
+          </a> */}
         </div>
       </div>
     </div>

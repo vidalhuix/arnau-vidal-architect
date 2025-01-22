@@ -21,10 +21,10 @@ export default function Main() {
             <span className="text-[#9f1239]"> Arnau Vidal</span>
           </h1>
           <h1 className="sm:text-5xl font-bold text-4xl text-gray-800">
-            Web Developer.
+            Senior Architect.
           </h1>
 
-          <h2 className="flex sm:text-3xl text-2xl pt-4 text-gray-800">
+          {/* <h2 className="flex sm:text-3xl text-2xl pt-4 text-gray-800">
             <TypeAnimation
               sequence={[
                 "A Coder.",
@@ -41,7 +41,7 @@ export default function Main() {
               style={{ fontSize: "1em", display: "inline-block" }}
               repeat={Infinity}
             />
-          </h2>
+          </h2> */}
           <div className="flex justify-between pt-6 max-w-[100px] w-full">
             <a
               href="https://www.linkedin.com/in/arnau-vidal-4266a940/"
@@ -49,12 +49,6 @@ export default function Main() {
             >
               <FaLinkedin
                 size={35}
-                className="cursor-pointer scale-150 fill-gray-800"
-              />
-            </a>
-            <a href="https://github.com/vidalhuix" target="_blank">
-              <FaGithub
-                size={33}
                 className="cursor-pointer scale-150 fill-gray-800"
               />
             </a>
