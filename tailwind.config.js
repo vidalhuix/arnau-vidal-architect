@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
+  content: ["./index.html", "./src/**/*.{html,js,jsx,ts,tsx}"],
   theme: {
     extend: {
       primary: {
@@ -12,6 +12,15 @@ export default {
       textShadow: {
         text: "0px 0px 5px rgba(0, 0, 0, 0.5)", // Custom text shadow
       },
+      animation: {
+        reveal: 'reveal 0.3s ease-in forwards'
+      },
+      keyframes: {
+        reveal: {
+          '0%': { transform: 'scaleX(0)', display: 'none' },
+          '100%': { transform: 'scaleX(1)', display: 'block' }
+        }
+      }
     },
   },
   plugins: [],

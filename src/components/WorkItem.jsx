@@ -23,9 +23,9 @@ export const WorkItem = ({ year, title, duration, details, projects }) => {
                 <li key={index} className="mb-2 flex flex-wrap justify-start items-center gap-1">
                   <span className=" font-semibold text-gray-700">{project.title}</span>
                   <span className=" font-semibold mr-1 text-gray-700 text-xs">{project.year}</span>
-                  <p className="text-gray-500">{project.description}</p>
                   <span className="my-1 text-sm font-normal leading-none text-stone-400">Client: </span>
-                  <span className="text-gray-500">{project.client}</span>
+                  <span className="text-gray-500">{project.client}.</span>
+                  <p className="text-gray-500">{project.description}</p>
                 </li>
               ))}
             </ul>

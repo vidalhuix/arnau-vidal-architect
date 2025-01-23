@@ -1,8 +1,8 @@
 import BackgroundMain from "/src/assets/bg-header.jpg";
-
 import ProfileImg from "/src/assets/profile-pic.png";
 import { TypeAnimation } from "react-type-animation";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { BtnDownload } from "./Buttons";
 
 export default function Main() {
   return (
@@ -42,23 +42,24 @@ export default function Main() {
               repeat={Infinity}
             />
           </h2> */}
-          <div className="flex justify-between pt-6 max-w-[100px] w-full">
+          <div className="           flex            justify-between items-center pt-6 max-w-[100px] w-full">
             <a
               href="https://www.linkedin.com/in/arnau-vidal-4266a940/"
               target="_blank"
             >
               <FaLinkedin
-                size={35}
-                className="cursor-pointer scale-150 fill-gray-800"
+                size={55}
+                className="cursor-pointer hover:scale-105 fill-gray-800 "
               />
             </a>
+            <BtnDownload />
           </div>
         </div>
       </div>
       <img
         src={ProfileImg}
         alt="profile image"
-        className="absolute bottom-11 right-4 w-[200px] translate-y-1/3 scale-x-[-1] md:mr-[25%]"
+        className=" bottom-11 absolute  right-4 w-[200px] translate-y-1/3 scale-x-[-1] md:mr-[25%]"
       ></img>
     </div>
   );

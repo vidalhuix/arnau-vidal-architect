@@ -31,20 +31,20 @@ export default function Sidenav() {
             <span className="pl-4">Home</span>
           </a>
           <a
-            href="#skills"
-            onClick={() => setNav(false)}
-            className="w-[75%] flex justify-center items-center shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 rounded-full cursor-pointer hover:scale-110 ease-in duration-200"
-          >
-            <GrProjects size={20} />
-            <span className="pl-4">Tech Skills</span>
-          </a>
-          <a
             href="#projects"
             onClick={() => setNav(false)}
             className="w-[75%] flex justify-center items-center shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 rounded-full cursor-pointer hover:scale-110 ease-in duration-200"
           >
-            <AiOutlineProject size={20} />
+            <GrProjects size={20} />
             <span className="pl-4">Projects</span>
+          </a>
+          <a
+            href="#skills"
+            onClick={() => setNav(false)}
+            className="w-[75%] flex justify-center items-center shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 rounded-full cursor-pointer hover:scale-110 ease-in duration-200"
+          >
+            <AiOutlineProject size={20} />
+            <span className="pl-4">Skills</span>
           </a>
           <a
             href="#resume"
@@ -60,7 +60,7 @@ export default function Sidenav() {
             className="w-[75%] flex justify-center items-center shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 rounded-full cursor-pointer hover:scale-110 ease-in duration-200"
           >
             <AiOutlineMail size={20} />
-            <span className="pl-4">Contact</span>
+            <span className="pl-4 ">Contact</span>
           </a>
         </div>
       ) : (
@@ -68,33 +68,37 @@ export default function Sidenav() {
           <div className="flex flex-col">
             <a
               href="#main"
-              className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
+              className="rounded-full mr-auto shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
             >
               <AiOutlineHome size={20} />
             </a>
             <a
-              href="#skills"
-              className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
+              href="#projects"
+              className="flex flex-wrap mr-auto justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 group"
             >
               <GrProjects size={20} />
+              <span className="hidden group-hover:block group-hover:animate-reveal pl-4">Projects</span>
             </a>
             <a
-              href="#projects"
-              className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
+              href="#skills"
+              className="flex flex-wrap mr-auto justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 group"
             >
               <AiOutlineProject size={20} />
+              <span className="hidden group-hover:block group-hover:animate-reveal pl-4">Skills</span>
             </a>
             <a
               href="#resume"
-              className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
+              className="flex flex-wrap mr-auto justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 group"
             >
               <BsPerson size={20} />
+              <span className="hidden group-hover:block group-hover:animate-reveal pl-4">Resume</span>
             </a>
             <a
               href="#contact"
-              className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
+              className="flex flex-wrap mr-auto justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 group"
             >
               <AiOutlineMail size={20} />
+              <span className="hidden group-hover:block group-hover:animate-reveal pl-4">Contact</span>
             </a>
           </div>
         </div>

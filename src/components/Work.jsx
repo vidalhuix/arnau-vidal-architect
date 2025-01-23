@@ -12,28 +12,28 @@ export const Work = () => {
           year: "",
           title: "Hasselnöten",
           description:
-            "12.380m² 73 rental apartments & 52 för sale. Program Management. Uppland's Väsby.",
+            "Model manager. 12.380m² 73 rental apartments & 52 för sale. Program Management. Uppland's Väsby.",
           client: "PEAB",
         },
         {
           year: "",
           title: "Finnberget ",
           description:
-            "Responsible architect. 27.000m². around  300 units. Competition project in Finnberget, Kvarnholmen.",
+            "Responsible architect. 27000m² ≈ 300 units. Competition. Finnberget, Kvarnholmen.",
           client: "JM",
         },
         {
           year: "",
           title: "Rördrömmen",
           description:
-            "20.000m². around 200 apartment units. Sketch of exploitation in Sigtuna.",
+            "20.000m² ≈ 200 apartment units. Sketch of exploitation in Sigtuna.",
           client: "JM",
         },
         {
           year: "",
           title: "Smörlottsgatan",
           description:
-            "12.270m². 191 apartments. Sketch for new layout and building permit.",
+            "12.270m² 191 apartments. Sketch for new layout and building permit.",
           client: "Balder",
         },
       ],
@@ -105,8 +105,8 @@ export const Work = () => {
         },
         {
           year: "2015-2016",
-          title: "Västra ",
-          description: "",
+          title: "Västra Blombacka",
+          description: "Reform of 316 rental apartments in Södertälje.",
           client: "",
         },
       ],
@@ -131,14 +131,16 @@ export const Work = () => {
       title: "Archi21 Architect office",
       duration: "1,5 years",
       details:
-        "Intership. Early stage design, drawings, modeling and visualization.",
+        "Intership. Early stage design, drawings, modeling and visualizations.",
       projects: [],
     },
   ];
   return (
-    <div id="resume" className="m-auto  my-7 sm:pl-10 p-4 bg-stone-100">
-      <div className="max-w-3xl m-auto  my-7 p-4">
-        <h1 className="mb-4 text-4xl font-bold text-center text-gray-800">
+    <div id="resume" className="m-auto mt-7 sm:pl-10 p-4 bg-stone-100">
+      <div className="max-w-3xl m-auto mt-7 pb-0 p-4">
+        <h1 className="mb-4 text-4xl 
+        
+        font-bold text-center text-gray-800">
           Work
         </h1>
         {data.map((item, idx) => (
