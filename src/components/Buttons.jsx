@@ -32,8 +32,8 @@ export const BtnDownload = () => {
   return (
     <div className="p-4">
       <a
-        href="/files/sample.pdf" // Path to the PDF file in the public folder
-        download="sample.pdf" // Suggested filename when the file is downloaded
+        href="/public/pdf/CV Arnau Vidal - Architect.pdf" // Path to the PDF file in the public folder
+        download="CV_Arnau_Vidal_Architect.pdf" // Suggested filename when the file is downloaded
         className="flex flex-row justify-center p-1 items-center px-4 py-2 border-2 border-gray-800 rounded-full shadow-md hover:scale-105   ease-in duration-200 group"
       >
         <FaFileDownload size={31} className="fill-gray-800" />
