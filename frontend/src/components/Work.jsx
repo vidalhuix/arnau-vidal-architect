@@ -40,10 +40,10 @@ export const Work = () => {
     },
     {
       year: "2016-2022",
-      title: "Arkitema",
+      title: "ARKITEMA",
       duration: "6 years",
       details:
-        "Further developed my knowledge in housing, especially during the construction documents. Oriented in both model manager role and responsible architect. Worked in Revit in BIM environments.",
+        "Further developed my knowledge in housing, especially during the construction documents. Oriented in both model manager role and responsible architect. In BIM environments using Revit.",
       projects: [
         {
           year: "2022",
@@ -91,7 +91,7 @@ export const Work = () => {
     },
     {
       year: "2014-2016",
-      title: "Aedis Arkitekter",
+      title: "AEDIS Arkitekter",
       duration: "2 years",
       details:
         "Worked in different design stages from an early stage until construction deed. Most projects were based on drawings from 3D laser scanning and Revit modeling. ",
@@ -113,7 +113,7 @@ export const Work = () => {
     },
     {
       year: "2012-2014",
-      title: "Argo Arkitekter",
+      title: "ARGO Arkitekter",
       duration: "2 years",
       details:
         "Worked mainly in early stages of the projects with a focus on housing, from private villas to apartment buildings and new blocks. Learned swedish ​​among other things.",
@@ -128,7 +128,7 @@ export const Work = () => {
     },
     {
       year: "2010-2011",
-      title: "Archi21 Architect office",
+      title: "ARCHI21 architecture office",
       duration: "1,5 years",
       details:
         "Intership. Early stage design, drawings, modeling and visualizations.",

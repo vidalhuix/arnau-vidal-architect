@@ -74,31 +74,31 @@ export default function Sidenav() {
             </a>
             <a
               href="#projects"
-              className="flex flex-wrap mr-auto justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 group"
+              className="relative flex flex-wrap mr-auto justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 group"
             >
               <GrProjects size={20} />
-              <span className="hidden group-hover:block group-hover:animate-reveal pl-4">Projects</span>
+              <span className="absolute hidden group-hover:block group-hover:animate-reveal pl-[120px]">Projects</span>
             </a>
             <a
               href="#skills"
-              className="flex flex-wrap mr-auto justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 group"
+              className="relative flex flex-wrap mr-auto justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 group"
             >
               <AiOutlineProject size={20} />
-              <span className="hidden group-hover:block group-hover:animate-reveal pl-4">Skills</span>
+              <span className="absolute hidden group-hover:block group-hover:animate-reveal pl-[120px]">Skills</span>
             </a>
             <a
               href="#resume"
-              className="flex flex-wrap mr-auto justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 group"
+              className="relative flex flex-wrap mr-auto justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 group"
             >
               <BsPerson size={20} />
-              <span className="hidden group-hover:block group-hover:animate-reveal pl-4">Resume</span>
+              <span className="absolute hidden group-hover:block group-hover:animate-reveal pl-[120px]">Resume</span>
             </a>
             <a
               href="#contact"
-              className="flex flex-wrap mr-auto justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 group"
+              className="relative flex flex-wrap mr-auto justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 group"
             >
               <AiOutlineMail size={20} />
-              <span className="hidden group-hover:block group-hover:animate-reveal pl-4">Contact</span>
+              <span className="absolute hidden group-hover:block group-hover:animate-reveal pl-[120px]">Contact</span>
             </a>
           </div>
         </div>

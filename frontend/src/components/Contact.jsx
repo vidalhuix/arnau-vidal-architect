@@ -1,9 +1,10 @@
+import { useTranslation } from "react-i18next";
 import { FaLinkedin, FaFileDownload } from "react-icons/fa";
 import { useState } from "react";
-import { FaCopy } from "react-icons/fa";
-import { BtnDownload } from "./Buttons";
+
 
 export const Contact = () => {
+  const { t } = useTranslation();
   const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {
@@ -15,7 +16,7 @@ export const Contact = () => {
     <div id="contact" className="mx-auto my-7 p-4 ">
       <div className="max-w-3xl m-auto  p-4">
         <h1 className="mb-4 text-4xl font-bold text-center text-gray-800">
-          For more
+        {t("contact.title")}
         </h1>
         <div className="flex flex-row m-auto justify-center gap-4 items-center pt-6 max-w-[100px]  w-full">
           <a

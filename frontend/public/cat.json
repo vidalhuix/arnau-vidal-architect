@@ -1,0 +1,264 @@
+{
+    "sidenav": {
+        "home": "Inici",
+        "projects": "Projectes",
+        "skills": "Habilitats",
+        "resume": "Currículum",
+        "contact": "Contacte"
+    },
+    "main": {
+        "greeting-1": "Hola,",
+        "greeting-2": "Sóc l'",
+        "name": "Arnau Vidal",
+        "title": "Arquitecte Sènior"
+    },
+    "presentation": {
+        "intro": "Sóc un arquitecte amb més de 10 anys d'experiència laboral treballant en  ",
+        "highlight": "projectes residencials grans, en entorns BIM utilitzant Revit. ",
+        "description": "Experimentat en totes les fases de disseny i amb una forta capacitat per planificar i gestionar múltiples tasques simultàniament."
+    },
+    "contact": {
+        "title": "Per a més"
+    },
+    "skills": {
+        "title": "Habilitats",
+        "categories": [
+            {
+                "category": "Eines de programari",
+                "items": [
+                    "Revit",
+                    "Naviate",
+                    "Enscape",
+                    "AutoCAD",
+                    "Bluebeam",
+                    "Sketchup",
+                    "Solibri",
+                    "Photoshop + Adobe Ai/iD/Ps"
+                ]
+            },
+            {
+                "category": "Entorns",
+                "items": [
+                    "BIM",
+                    "Google",
+                    "Microsoft",
+                    "Controls de qualitat BEAST"
+                ]
+            },
+            {
+                "category": "Experiència i qualificacions",
+                "items": [
+                    "Títol d'Arquitecte",
+                    "12 anys experiència laboral.",
+                    "2 anys com a supervisor",
+                    "en grans projectes",
+                    "en col·laboració",
+                    "en disseny i desenvolupament.",
+                    "en planificació i lliurament"
+                ]
+            },
+            {
+                "category": "Idiomes",
+                "items": [
+                    "Anglès",
+                    "Suec",
+                    "Català",
+                    "Espanyol"
+                ]
+            },
+            {
+                "category": "Altres",
+                "items": [
+                    "Carnet de conduir B, C1 i C"
+                ]
+            }
+        ]
+    },
+    "studies": {
+        "title": "Estudis",
+        "categories": [
+            {
+                "year": "2003-2011",
+                "title": "UPC ETSAV",
+                "duration": "8 anys",
+                "details": "Títol d'arquitecte + Master."
+            },
+            {
+                "year": "2007-2008",
+                "title": "BME Budapest",
+                "duration": "1 any",
+                "details": "Programa d'intercanvi europeu, Erasmus."
+            }
+        ]
+    },
+    "projects_data": [
+        {
+            "id": "lindberg-stenberg-hasselnoten",
+            "show": true,
+            "thumbnail": "",
+            "link": "",
+            "images": [],
+            "name": "Hasselnöten",
+            "year": "2022-2023",
+            "office": "LINDBERG STENBERG Arkitekter",
+            "client": "PEAB",
+            "location": "Upplands Väsby",
+            "role": "Arquitecte",
+            "description": "7 mesos de treball. 12.380m², 73 apartaments de lloguer + 52 de venda."
+        },
+        {
+            "id": "lindberg-stenberg-finnberget",
+            "show": true,
+            "thumbnail": "",
+            "link": "",
+            "images": [],
+            "name": "Finnberget",
+            "year": "2022-2023",
+            "office": "LINDBERG STENBERG Arkitekter",
+            "client": "JM",
+            "location": "Kvarnholmen, Nacka",
+            "role": "Arquitecte",
+            "description": "27.000m². Aprox. 300 habitatges. Competició a Finnberget"
+        },
+        {
+            "id": "lindberg-stenberg-rordrommen",
+            "show": true,
+            "thumbnail": "",
+            "link": "",
+            "images": [],
+            "name": "Rördrömmen",
+            "year": "2022-2023",
+            "office": "LINDBERG STENBERG Arkitekter",
+            "client": "JM",
+            "location": "Sigtuna",
+            "role": "Arquitecte",
+            "description": "20.000m². Aprox. 200 habitatges. Esbós d'explotació."
+        },
+        {
+            "id": "lindberg-stenberg-smorlottsgatan",
+            "show": true,
+            "thumbnail": "",
+            "link": "",
+            "images": [],
+            "name": "Smörlottsgatan",
+            "year": "2022-2023",
+            "office": "LINDBERG STENBERG Arkitekter",
+            "client": "Balder",
+            "location": "Göteborg",
+            "role": "Arquitecte",
+            "description": "12.270m². 191 apartaments. Esbós per a nova distribució de la planta tipus i projecte per a la llicencia d'obres."
+        },
+        {
+            "id": "arkitema-korsangen",
+            "show": true,
+            "thumbnail": "",
+            "link": "",
+            "images": [],
+            "name": "Korsängen",
+            "year": "2022",
+            "office": "ARKITEMA",
+            "client": "PEAB",
+            "location": "Enköping",
+            "role": "Arquitecte responsable",
+            "description": "Estic orgullós d'aquest projecte, ja que estant sol en menys de 3 mesos, vaig redactar i lliurar el projecte executiu per a la posada en obra. 3 edificis residencials + 2 locals comercials. 122 unitats de lloguer."
+        },
+        {
+            "id": "arkitema-väsjön",
+            "show": true,
+            "thumbnail": "",
+            "link": "",
+            "images": [],
+            "name": "Väsjön",
+            "year": "2020-2021",
+            "office": "ARKITEMA",
+            "client": "Magnolia",
+            "location": "Sollentuna",
+            "role": "Arquitecte responsable",
+            "description": "Cooperativa d'habitatges un total de 206 habitatges. Compost per dues illes de cases de 3 plantes + golfes. Amb jardí col·lectiu i garatge subterrani compartit. A un nou barri residencial del nord d'Stockholm."
+        },
+        {
+            "id": "arkitema-ahusen",
+            "show": true,
+            "thumbnail": "",
+            "link": "",
+            "images": [],
+            "name": "Åhusen",
+            "year": "2019-2020",
+            "office": "ARKITEMA",
+            "client": "Väsbyhem",
+            "location": "Upplands Väsby centrum",
+            "role": "Gestor del Model",
+            "description": "Gestor del model. Des de l'encàrrec del projecte, el bàsic, el document pel pla de projecte i el projecte executiu. 14.230m², 194 apartaments de lloguer. Planificació i disseny de tres nous edificis residencials."
+        },
+        {
+            "id": "arkitema-taby-park",
+            "show": true,
+            "thumbnail": "",
+            "link": "",
+            "images": [],
+            "name": "Täby Park",
+            "year": "2019-2020",
+            "office": "ARKITEMA",
+            "client": "Viktor Hanson",
+            "location": "Täby park",
+            "role": "Part de l'equip de treball",
+            "description": "Projecte de 12.000 m², 145 apartaments + garatge + 4 locals. Esbós, projecte bàsic, document pel pla de projecte, permisos d'obra i projecte executiu + material de venda per a la construcció d'un edifici d'apartaments."
+        },
+        {
+            "id": "arkitema-lappis-student-housing",
+            "show": true,
+            "thumbnail": "",
+            "link": "",
+            "images": [],
+            "name": "Lappi's Student Housing",
+            "year": "2018-2019",
+            "office": "ARKITEMA",
+            "client": "SSSB & PEAB",
+            "location": "Läppkärrsberget Frescati, Stockholm",
+            "role": "Gestor del Model",
+            "description": "Projecte de concurs de 800 habitatges per a estudiants. 28.000 m². Projecte executat, 4 torres residencials amb 145 minihabitatges d'estudiants. Des de l'esbós, el básic, permisos d'obres, projecte pla de documentació, projecte executiu  i projecte de replantajament."
+        },
+        {
+            "id": "arkitema-lingontuvan",
+            "show": true,
+            "thumbnail": "",
+            "link": "",
+            "images": [],
+            "name": "Lingontuvan",
+            "year": "2017-2019",
+            "office": "ARKITEMA",
+            "client": "Viktor Hanson",
+            "location": "Vega area, Haninge",
+            "role": "Gestor del Model",
+            "description": "Extensió 7200m², 95 noves unitats d'apartaments cooperatius d'habitatge. Planificació i disseny d'un nou edifici residencial. Des dels primers esbosos, bàsic, projecte executiu, document pel permis d'obres i material per a la venda."
+        },
+        {
+            "id": "aedis-kv-klockarbacke",
+            "show": true,
+            "thumbnail": "",
+            "link": "",
+            "images": [],
+            "name": "Kv. Klockarbacke",
+            "year": "2014-2015",
+            "office": "AEDIS Arkitekter",
+            "client": "Einar Mattsson",
+            "location": "Huddinge Centrum",
+            "role": "Visualitzador i Gestor de Models",
+            "description": "127 apartaments cooperatius dissenyats formant dues torres d'apartaments que comparteixen els 3 primeres plantes. Amb terrassa compartida, locals de carrer i garatge subterrani."
+        },
+        {
+            "id": "aedis-vastra-blombacka",
+            "show": true,
+            "thumbnail": "",
+            "link": "",
+            "images": [],
+            "name": "Västra Blombacka",
+            "year": "2015-2016",
+            "office": "AEDIS Arkitekter",
+            "client": "",
+            "location": "Södertälje",
+            "role": "Gestor del model",
+            "description": "Reforma de 316 apartaments de lloguer."
+        }
+    ]
+}
