@@ -17,7 +17,7 @@ export const Studies = () => {
           <WorkItem
             key={idx}
             year={item.year}
-            title={item.title}
+            place={item.place}
             duration={item.duration}
             details={item.details}
             projects={item.projects}

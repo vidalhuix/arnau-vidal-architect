@@ -79,18 +79,59 @@
         "categories": [
             {
                 "year": "2003-2011",
-                "title": "UPC ETSAV (Arkitektur Tekniska Högskola av Katalonia)",
+                "place": "UPC ETSAV (Arkitektur Tekniska Högskola av Katalonia)",
                 "duration": "8 år",
                 "details": "Arkitekt karriärexamen + Master."
             },
             {
                 "year": "2007-2008",
-                "title": "BME Budapest",
+                "place": "BME Budapest",
                 "duration": "1 år",
                 "details": "Europeiskt utbytesprogram, Erasmus."
             }
         ]
     },
+    "work": {
+  "title": "Arbete",
+  "categories": [
+    {
+      "year": "2022-2023",
+      "place": "LINDBERG STENBERG Arkitekter",
+      "duration": "7 månader",
+      "details": "Jag jobbade för det mästa som Model Ansvarigt Arkitekt"
+    },
+    {
+      "year": "2016-2022",
+      "place": "ARKITEMA",
+      "duration": "6 år",
+      "details": "Utvecklade min kunskap inom bostadsbyggande, särskilt under systemhandling och bygghandling. Arbetade både som modellansvarig och ansvarig arkitekt. I BIM-miljöer med Revit."
+    },
+    {
+      "year": "2014-2016",
+      "place": "AEDIS Arkitekter",
+      "duration": "2 år",
+      "details": "Arbetade i olika designstadier, från tidiga skeden till byggnadshandlingar. De flesta projekten baserades på ritningar från 3D-laserskanning och Revit-modellering."
+    },
+    {
+      "year": "2012-2014",
+      "place": "ARGO Arkitekter",
+      "duration": "2 år",
+      "details": "Arbetade främst i tidiga skeden av projekten med fokus på bostäder, från privata villor till lägenhetshus och nya kvarter. Lärde mig svenska bland annat."
+    },
+    {
+      "year": "2011-2012",
+      "place": "Konsultarkitekt",
+      "duration": "1 år",
+      "details": "Renovering och visualisering bland annat av en lokal och en lägenhet i Barcelona centrum."
+    },
+    {
+      "year": "2010-2011",
+      "place": "ARCHI21 arkitektkontor",
+      "duration": "1,5 år",
+      "details": "Praktik. Tidiga skede, ritningar, modellering och visualiseringar. I en små arkitekt kontor i Barcelona"
+    }
+  ]
+},
     "projects_data": [
         {
             "id": "lindberg-stenberg-hasselnoten",
@@ -99,11 +140,11 @@
             "link": "",
             "images": [],
             "name": "Hasselnöten",
-            "year": "2022-2023",
+            "year": "",
             "office": "LINDBERG STENBERG Arkitekter",
             "client": "PEAB",
             "location": "Upplands Väsby",
-            "role": "Arkitekt",
+            "role": "",
             "description": "7 månaders arbete. 12.380m², 73 hyreslägenheter + 52 till salu."
         },
         {
@@ -113,11 +154,11 @@
             "link": "",
             "images": [],
             "name": "Finnberget",
-            "year": "2022-2023",
+            "year": "",
             "office": "LINDBERG STENBERG Arkitekter",
             "client": "JM",
             "location": "Kvarnholmen, Nacka",
-            "role": "Arkitekt",
+            "role": "",
             "description": "27.000m². Ca. 300 lägenheter. Tävling i Finnberget"
         },
         {
@@ -127,11 +168,11 @@
             "link": "",
             "images": [],
             "name": "Rördrömmen",
-            "year": "2022-2023",
+            "year": "",
             "office": "LINDBERG STENBERG Arkitekter",
             "client": "JM",
             "location": "Sigtuna",
-            "role": "Arkitekt",
+            "role": "",
             "description": "20.000m². Ca. 200 lägenheter. Skiss för exploatering ."
         },
         {
@@ -141,11 +182,11 @@
             "link": "",
             "images": [],
             "name": "Smörlottsgatan",
-            "year": "2022-2023",
+            "year": "",
             "office": "LINDBERG STENBERG Arkitekter",
             "client": "Balder",
             "location": "Göteborg",
-            "role": "Arkitekt",
+            "role": "",
             "description": "12.270m². 191 lägenheter. Skiss för nya planlösningar och BL."
         },
         {
@@ -160,7 +201,7 @@
             "client": "PEAB",
             "location": "Enköping",
             "role": "Handläggande Arkitekt",
-            "description": "Jag är stolt över att jag helt själv hade startat, skapat och levererat bygghandlingen för det här project under 3 månader arbets tid. Projektet består av 3 bostadshus + 2 lokaler med 122 hyresrätter."
+            "description": "Jag är stolt över att helt själv ha startat, skapat och levererat bygghandlingen för det här projektet under tre månaders arbetstid. Projektet består av tre bostadshus och två lokaler med totalt 122 hyresrätter."
         },
         {
             "id": "arkitema-väsjön",

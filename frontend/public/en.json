@@ -79,15 +79,56 @@
     "categories": [
       {
         "year": "2003-2011",
-        "title": "UPC ETSAV (Technical College of Architecture in Vallés, Catalonia)",
+        "place": "UPC ETSAV (Technical College of Architecture in Vallés, Catalonia)",
         "duration": "8 years",
         "details": "Architect career degree + Master."
       },
       {
         "year": "2007-2008",
-        "title": "BME Budapest",
+        "place": "BME Budapest",
         "duration": "1 years",
         "details": "European exchange program, Erasmus."
+      }
+    ]
+  },
+  "work": {
+    "title": "Work",
+    "categories": [
+      {
+        "year_start": "2022-2023",
+        "place": "LINDBERG STENBERG Arkitekter",
+        "duration": "7 month",
+        "details": ""
+      },
+      {
+        "year": "2016-2022",
+        "place": "ARKITEMA",
+        "duration": "6 years",
+        "details": "Further developed my knowledge in housing, especially during the construction documents. Oriented in both model manager role and responsible architect. In BIM environments using Revit."
+      },
+      {
+        "year": "2014-2016",
+        "place": "AEDIS Arkitekter",
+        "duration": "2 years",
+        "details": "Worked in different design stages from an early stage until construction deed. Most projects were based on drawings from 3D laser scanning and Revit modeling. "
+      },
+      {
+        "year": "2012-2014",
+        "place": "ARGO Arkitekter",
+        "duration": "2 years",
+        "details": "Worked mainly in early stages of the projects with a focus on housing, from private villas to apartment buildings and new blocks. Learned swedish ​​among other things."
+      },
+      {
+        "year": "2011-2012",
+        "place": "Consultant Architect",
+        "duration": "1 year",
+        "details": "Renovation and visualization."
+      },
+      {
+        "year": "2010-2011",
+        "place": "ARCHI21 architecture office",
+        "duration": "1.5 years",
+        "details": "Intership. Early stage design, drawings, modeling and visualizations."
       }
     ]
   },
@@ -188,7 +229,7 @@
       "client": "Väsbyhem",
       "location": "Upplands Väsby centrum",
       "role": "Model Manager",
-      "description": "Model manager from project brief, system planning document and building plan. 14.230m², 194 rental apartments. Planning and design of three new residential buildings."
+      "description": "From project brief, system planning document and building plan. 14.230m², 194 rental apartments. Planning and design of three new residential buildings."
     },
     {
       "id": "arkitema-taby-park",
@@ -215,7 +256,7 @@
       "office": "ARKITEMA",
       "client": "SSSB & PEAB",
       "location": "Läppkärrsberget Frescati, Stockholm",
-      "role": "Model manager",
+      "role": "Model Manager",
       "description": "Competition project of about 800 student apartment, 28.000 m². The final project was 4 residential towers with 145 student apartments. From sketch, project brief, project plan documentation + building permits & plans."
     },
     {
@@ -229,7 +270,7 @@
       "office": "ARKITEMA",
       "client": "Viktor Hanson",
       "location": "Vega area, Haninge",
-      "role": "Model manager",
+      "role": "Model Manager",
       "description": "Extent 7200m², 95 new housing cooperative apartment units. Planning and design of new residential building. From the first sketches to the construction deeds"
     },
     {
@@ -255,9 +296,9 @@
       "name": "Västra Blombacka",
       "year": "2015-2016",
       "office": "AEDIS Arkitekter",
-      "client": "",
+      "client": "Rikshem",
       "location": "Södertälje",
-      "role": "Model manager",
+      "role": "Model Manager",
       "description": "Reform of 316 rental apartments."
     }
   ]

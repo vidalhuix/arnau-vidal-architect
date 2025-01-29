@@ -15,7 +15,7 @@ export const App = () => {
       <Main />
       <Presentation />
       <Projects />
-      <Work />
+      <Work /> 
       <Studies />
       <Skills />
       <Contact />

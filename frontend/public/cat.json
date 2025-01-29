@@ -79,15 +79,56 @@
         "categories": [
             {
                 "year": "2003-2011",
-                "title": "UPC ETSAV",
+                "place": "UPC ETSAV",
                 "duration": "8 anys",
                 "details": "Títol d'arquitecte + Master."
             },
             {
                 "year": "2007-2008",
-                "title": "BME Budapest",
+                "place": "BME Budapest",
                 "duration": "1 any",
                 "details": "Programa d'intercanvi europeu, Erasmus."
+            }
+        ]
+    },
+    "work": {
+        "title": "Experiència Laboral",
+        "categories": [
+            {
+                "year": "2022-2023",
+                "place": "LINDBERG STENBERG Arkitekter",
+                "duration": "7 mesos",
+                "details": "Durant el temps que vaig treballar aquí ho vaig principalment com a responsable de model."
+            },
+            {
+                "year": "2016-2022",
+                "place": "ARKITEMA",
+                "duration": "6 anys",
+                "details": "Vaig desenvolupar els meus coneixements en habitatge, especialment en la fase de projecció del projecte executiu. Vaig treballar tant com a gestor de models com a arquitecte responsable. En entorns BIM utilitzant Revit."
+            },
+            {
+                "year": "2014-2016",
+                "place": "AEDIS Arkitekter",
+                "duration": "2 anys",
+                "details": "Vaig treballar en diferents fases de disseny, des de les etapes inicials fins als documents de construcció. La majoria dels projectes es basaven en dibuixos de l’escaneig làser 3D i modelatge en Revit."
+            },
+            {
+                "year": "2012-2014",
+                "place": "ARGO Arkitekter",
+                "duration": "2 anys",
+                "details": "Vaig treballar principalment en les fases inicials dels projectes, centrant-me en habitatges, des de cases unifamiliars fins a edificis d’apartaments i nous blocs. Vaig aprendre suec, entre altres coses."
+            },
+            {
+                "year": "2011-2012",
+                "place": "Arquitecte Consultor",
+                "duration": "1 any",
+                "details": "Reformes i visualitzacions. D'un local i dos pisos."
+            },
+            {
+                "year": "2010-2011",
+                "place": "Despatx d’arquitectura ARCHI21",
+                "duration": "1,5 anys",
+                "details": "Pràctiques. Disseny inicial, dibuixos, maquetatge i visualitzacions."
             }
         ]
     },
@@ -160,7 +201,7 @@
             "client": "PEAB",
             "location": "Enköping",
             "role": "Arquitecte responsable",
-            "description": "Estic orgullós d'aquest projecte, ja que estant sol en menys de 3 mesos, vaig redactar i lliurar el projecte executiu per a la posada en obra. 3 edificis residencials + 2 locals comercials. 122 unitats de lloguer."
+            "description": "Projecte del qual estic orgullós dels resultats  en part perquè en menys de 3 mesos, vaig redactar i lliurar el projecte executiu per a la posada en obra. 3 edificis residencials + 2 locals comercials. 122 unitats de lloguer."
         },
         {
             "id": "arkitema-väsjön",
