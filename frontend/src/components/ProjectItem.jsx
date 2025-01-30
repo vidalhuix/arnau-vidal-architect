@@ -14,7 +14,7 @@ const ProjectItem = ({ project, onClose }) => {
 
   return (
     <div className="fixed inset-0 bg-black bg-opacity-75 flex justify-center items-center z-50">
-      <div className="relative bg-white p-6 rounded-lg max-w-4xl w-full max-h-[90vh] overflow-auto">
+      <div className="relative bg-white p-6  max-w-4xl w-full max-h-[90vh] overflow-auto">
         <button
           className="absolute top-2 right-2 text-gray-800"
           onClick={onClose}
@@ -27,7 +27,7 @@ const ProjectItem = ({ project, onClose }) => {
             type: 'loop',
             perPage: 1,
             autoplay: true,
-            interval: 3000,
+            interval: 5000,
             arrows: true,
             pagination: true,
           }}
@@ -47,7 +47,8 @@ const ProjectItem = ({ project, onClose }) => {
         <div className="mt-4">
           <h2 className=" text-lg font-semibold">
             <span className="text-lg font-normal">{project.year} - </span>
-            {project.name}
+            {project.name}{" - "}
+            {project.location}
           </h2>
           <span className="text-lg font-normal"> {project.role}</span>
           <div className="flex flex-row gap-3 items-center">
