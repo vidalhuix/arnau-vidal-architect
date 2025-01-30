@@ -39,20 +39,20 @@ export default function Sidenav() {
             <span className="pl-4">Projects</span>
           </a>
           <a
-            href="#skills"
-            onClick={() => setNav(false)}
-            className="w-[75%] flex justify-center items-center shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 rounded-full cursor-pointer hover:scale-110 ease-in duration-200"
-          >
-            <AiOutlineProject size={20} />
-            <span className="pl-4">Skills</span>
-          </a>
-          <a
             href="#resume"
             onClick={() => setNav(false)}
             className="w-[75%] flex justify-center items-center shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 rounded-full cursor-pointer hover:scale-110 ease-in duration-200"
           >
             <BsPerson size={20} />
             <span className="pl-4">Resume</span>
+          </a>
+          <a
+            href="#skills"
+            onClick={() => setNav(false)}
+            className="w-[75%] flex justify-center items-center shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 rounded-full cursor-pointer hover:scale-110 ease-in duration-200"
+          >
+            <AiOutlineProject size={20} />
+            <span className="pl-4">Skills</span>
           </a>
           <a
             href="#contact"
@@ -80,18 +80,18 @@ export default function Sidenav() {
               <span className="absolute hidden group-hover:block group-hover:animate-reveal pl-[120px]">Projects</span>
             </a>
             <a
-              href="#skills"
-              className="relative flex flex-wrap mr-auto justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 group"
-            >
-              <AiOutlineProject size={20} />
-              <span className="absolute hidden group-hover:block group-hover:animate-reveal pl-[120px]">Skills</span>
-            </a>
-            <a
               href="#resume"
               className="relative flex flex-wrap mr-auto justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 group"
             >
               <BsPerson size={20} />
               <span className="absolute hidden group-hover:block group-hover:animate-reveal pl-[120px]">Resume</span>
+            </a>
+            <a
+              href="#skills"
+              className="relative flex flex-wrap mr-auto justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 group"
+            >
+              <AiOutlineProject size={20} />
+              <span className="absolute hidden group-hover:block group-hover:animate-reveal pl-[120px]">Skills</span>
             </a>
             <a
               href="#contact"

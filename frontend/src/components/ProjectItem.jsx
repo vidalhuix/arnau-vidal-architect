@@ -1,25 +1,65 @@
-export const ProjectItem = ({
-  name,
-  year,
-  office,
-  client,
-  role,
-  description,
-  link,
-  images,
+import { IoClose } from 'react-icons/io5';
+import { FaLink } from 'react-icons/fa6';
+import { Splide, SplideSlide } from '@splidejs/react-splide';
+import '@splidejs/react-splide/css';
 
-}) => {
- 
+const ProjectItem = ({ project, onClose }) => {
+  // Use the exact number of images from project data
+  const images = Array.from({ length: project.images }, (_, i) => {
+    const num = String(i + 1).padStart(2, '0'); // Formats as 01, 02, 03...
+    return `/${project.id}/${num}.jpg`;
+  });
+
+  const link = project;
+
   return (
-    <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-gray-200 to-gray-500">
-      <h3 className="absolute text-white bg-black/50 px-2 text-2xl text-shadow font-bold text-center group-hover:hidden">
-        {name.toUpperCase()}
-      </h3>
-     <p>{year}</p>
-     <p>{client}</p>
-     <p>{office}</p>
-     <p>{description}</p>
-     <a>{link}</a>
+    <div className="fixed inset-0 bg-black bg-opacity-75 flex justify-center items-center z-50">
+      <div className="relative bg-white p-6 rounded-lg max-w-4xl w-full max-h-[90vh] overflow-auto">
+        <button
+          className="absolute top-2 right-2 text-gray-800"
+          onClick={onClose}
+        >
+          <IoClose size={24} />
+        </button>
+
+        <Splide
+          options={{
+            type: 'loop',
+            perPage: 1,
+            autoplay: true,
+            interval: 3000,
+            arrows: true,
+            pagination: true,
+          }}
+          className="mt-4"
+        >
+          {images.map((src, index) => (
+            <SplideSlide key={index}>
+              <img
+                src={src}
+                alt={`Slide ${index + 1}`}
+                className="w-full max-h-[70vh] rounded-lg object-contain"
+              />
+            </SplideSlide>
+          ))}
+        </Splide>
+
+        <div className="mt-4">
+          <h2 className=" text-lg font-semibold">
+            <span className="text-lg font-normal">{project.year} - </span>
+            {project.name}
+          </h2>
+          <span className="text-lg font-normal"> {project.role}</span>
+          <div className="flex flex-row gap-3 items-center">
+            <p className="text-gray-600">{project.description}</p>
+            <a href={project.link}>
+              <FaLink className="fill-[#9f1239]" />
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
+
+export default ProjectItem;

@@ -13,7 +13,7 @@ export const Work = () => {
 
         {t("work.categories", { returnObjects: true }).map((category) => {
           // Filter projects that belong to this category's place
-          const categoryProjects = t("projects_data", { returnObjects: true }).filter(
+          const categoryProjects = t("projects_data.projects", { returnObjects: true }).filter(
             (project) => project.office === category.place
           );
 

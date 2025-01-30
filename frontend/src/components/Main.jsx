@@ -27,7 +27,7 @@ export default function Main() {
           {t("main.title")}
           </h1>
 
-          <div className=" flex ustify-between items-center pt-6 max-w-[100px] w-full">
+          <div className=" flex justify-between items-center gap-1 pt-6 max-w-[100px] w-full">
             <a
               href="https://www.linkedin.com/in/arnau-vidal-4266a940/"
               target="_blank"

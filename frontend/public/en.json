@@ -1,4 +1,5 @@
 {
+  "download": "Architect",
   "sidenav": {
     "home": "Home",
     "projects": "Projects",
@@ -95,7 +96,7 @@
     "title": "Work",
     "categories": [
       {
-        "year_start": "2022-2023",
+        "year": "2022-2023",
         "place": "LINDBERG STENBERG Arkitekter",
         "duration": "7 month",
         "details": ""
@@ -126,16 +127,18 @@
       },
       {
         "year": "2010-2011",
-        "place": "ARCHI21 architecture office",
+        "place": "ARCHI21 office",
         "duration": "1.5 years",
         "details": "Intership. Early stage design, drawings, modeling and visualizations."
       }
     ]
   },
-  "projects_data": [
+  "projects_data": {
+    "title": "Featured projects",
+    "projects": [
     {
       "id": "lindberg-stenberg-hasselnoten",
-      "show": true,
+      "show": false,
       "thumbnail": "",
       "link": "",
       "images": [],
@@ -149,7 +152,7 @@
     },
     {
       "id": "lindberg-stenberg-finnberget",
-      "show": true,
+      "show": false,
       "thumbnail": "",
       "link": "",
       "images": [],
@@ -163,7 +166,7 @@
     },
     {
       "id": "lindberg-stenberg-rordrommen",
-      "show": true,
+      "show": false,
       "thumbnail": "",
       "link": "",
       "images": [],
@@ -177,7 +180,7 @@
     },
     {
       "id": "lindberg-stenberg-smorlottsgatan",
-      "show": true,
+      "show": false,
       "thumbnail": "",
       "link": "",
       "images": [],
@@ -193,8 +196,8 @@
       "id": "arkitema-korsangen",
       "show": true,
       "thumbnail": "",
-      "link": "",
-      "images": [],
+      "link": "https://peab.se/om-peab/bolagsinformation/press-och-media/pressmeddelanden/2022/februari/peab-bygger-hyreslagenheter-i-enkoping/",
+      "images": 2,
       "name": "Korsängen",
       "year": "2022",
       "office": "ARKITEMA",
@@ -204,11 +207,11 @@
       "description": "Production and delivery of construction deeds for the execution of 3 residential buildings + 2 commercial premises. 122 rental units. 3 month work, project I did complete alone with the client."
     },
     {
-      "id": "arkitema-väsjön",
+      "id": "arkitema-vasjon",
       "show": true,
       "thumbnail": "",
-      "link": "",
-      "images": [],
+      "link": "https://magnoliabostad.se/project/nackrosen-sollentuna/",
+      "images": 3,
       "name": "Väsjön",
       "year": "2020-2021",
       "office": "ARKITEMA",
@@ -221,8 +224,8 @@
       "id": "arkitema-ahusen",
       "show": true,
       "thumbnail": "",
-      "link": "",
-      "images": [],
+      "link": "https://press.vasbyhem.se/posts/news/nu-ar-ahusen-fardigstallda",
+      "images": 8,
       "name": "Åhusen",
       "year": "2019-2020",
       "office": "ARKITEMA",
@@ -233,9 +236,9 @@
     },
     {
       "id": "arkitema-taby-park",
-      "show": true,
+      "show": false,
       "thumbnail": "",
-      "link": "",
+      "link": "https://viktorhanson.se/vara-projekt/lingontuvan/",
       "images": [],
       "name": "Täby Park",
       "year": "2019-2020",
@@ -249,9 +252,9 @@
       "id": "arkitema-lappis-student-housing",
       "show": true,
       "thumbnail": "",
-      "link": "",
-      "images": [],
-      "name": "Lappi's Student Housing",
+      "link": "https://www.arkitema.com/se/projekt/lappis",
+      "images": 13,
+      "name": "Lappis, Student Housing",
       "year": "2018-2019",
       "office": "ARKITEMA",
       "client": "SSSB & PEAB",
@@ -263,8 +266,8 @@
       "id": "arkitema-lingontuvan",
       "show": true,
       "thumbnail": "",
-      "link": "",
-      "images": [],
+      "link": "https://viktorhanson.se/vara-projekt/lingontuvan/",
+      "images": 7,
       "name": "Lingontuvan",
       "year": "2017-2019",
       "office": "ARKITEMA",
@@ -274,25 +277,67 @@
       "description": "Extent 7200m², 95 new housing cooperative apartment units. Planning and design of new residential building. From the first sketches to the construction deeds"
     },
     {
-      "id": "aedis-kv-klockarbacke",
+      "id": "aedis-norra-stationsgatan",
+      "show": true,
+      "thumbnail": "",
+      "link": "https://maps.app.goo.gl/7g6qkYJJKX5BLX8x9",
+      "images": 5,
+      "name": "Norra Stationsgatan",
+      "year": "2016",
+      "office": "AEDIS Arkitekter",
+      "client": "BRF Skålen 23",
+      "location": "Stockholm",
+      "role": "Architect, visualiser",
+      "description": "Project where the customer, a housing association wanted to study the economic benefits of extending the building high of it's block. In order to get more apartments."
+    },
+    {
+      "id": "aedis-ostra-sala-backe",
+      "show": true,
+      "thumbnail": "",
+      "link": "https://www.uppsala.se/contentassets/6384bb02ce0741a4804015cfc244aa33/planbeskrivning-laga-kraft.pdf",
+      "images": 7,
+      "name": "Competition Östra Sala backe",
+      "year": "2015",
+      "office": "AEDIS Arkitekter",
+      "client": "Uppsala kommun",
+      "location": "Östra Sala Backe, Uppsala",
+      "role": "Architect",
+      "description": "Land allocation competition."
+    },
+    {
+      "id": "aedis-midsommarkransen",
       "show": true,
       "thumbnail": "",
       "link": "",
       "images": [],
-      "name": "Kv. Klockarbacke",
-      "year": "2014-2015",
+      "name": "Competition Midsommarkransen",
+      "year": "2015",
       "office": "AEDIS Arkitekter",
-      "client": "Einar Mattsson",
-      "location": "Huddinge Centrum",
-      "role": "Visualizer and Model manager",
-      "description": "127 cooperative apartments, designed in two towers with shared first 3 floor plans. With a terrasse, locals and underground garage."
+      "client": "Stockholms kommun",
+      "location": "Midsommarkransen, Stockholm",
+      "role": "Arkitekt",
+      "description": "Land allocation competition."
+    },
+    {
+      "id": "aedis-tyreso",
+      "show": true,
+      "thumbnail": "",
+      "link": "https://www.uppsala.se/contentassets/6384bb02ce0741a4804015cfc244aa33/planbeskrivning-laga-kraft.pdf",
+      "images": 13,
+      "name": "Competition Tyresö",
+      "year": "2015",
+      "office": "AEDIS Arkitekter",
+      "client": "Tyresö Kommun",
+      "location": "Tyresö",
+      "role": "Architect",
+      "description": "Land allocation competition."
     },
     {
       "id": "aedis-vastra-blombacka",
       "show": true,
       "thumbnail": "",
       "link": "",
-      "images": [],
+      "images": 5,
       "name": "Västra Blombacka",
       "year": "2015-2016",
       "office": "AEDIS Arkitekter",
@@ -300,6 +345,104 @@
       "location": "Södertälje",
       "role": "Model Manager",
       "description": "Reform of 316 rental apartments."
+    },
+    {
+      "id": "aedis-kv-klockarbacken",
+      "show": true,
+      "thumbnail": "",
+      "link": "https://www.einarmattsson.se/vara-fastigheter-och-projekt/klockarbacken/",
+      "images": 7,
+      "name": "Kv. Klockarbacken",
+      "year": "2014-2015",
+      "office": "AEDIS Arkitekter",
+      "client": "Einar Mattsson",
+      "location": "Huddinge Centrum",
+      "role": "Visualizer and Model manager",
+      "description": "139 cooperative apartments, designed in two towers with shared first 3 floor plans. With a terrasse, 5 locals and underground garage."
+    },
+    {
+      "id": "argo-kv-medlemmen",
+      "show": true,
+      "thumbnail": "",
+      "link": "https://argoarkitekter.se/projects/kv-medlemmen/#/0",
+      "images": 3,
+      "name": "Kv Medlemmen",
+      "year": "2015",
+      "office": "ARGO Arkitekter",
+      "client": "JM",
+      "location": "Årsta, Stockholm",
+      "role": "Visualizer",
+      "description": "New residential appartment block with underground garage, a kindergarder and street premises."
+    },
+    {
+      "id": "argo-kv-segelflyget",
+      "show": true,
+      "thumbnail": "",
+      "link": "https://argoarkitekter.se/projects/barkarbystaden-kv-3/#/0",
+      "images": 4,
+      "name": "Kv Segelflyget",
+      "year": "2015-2016",
+      "office": "ARGO Arkitekter",
+      "client": "JM",
+      "location": "Årsta, Stockholm",
+      "role": "Visualizer",
+      "description": "New residential appartment block with underground garage and street premises in the new city district of Barkarby."
+    },
+    {
+      "id": "freelance-sala-polivalent-albanya",
+      "show": true,
+      "thumbnail": "",
+      "link": "https://maps.app.goo.gl/pin4mufvt9fo2Xad8",
+      "images": 16,
+      "name": "La Sala",
+      "year": "2011",
+      "office": "Freelance",
+      "client": "Albanyà municipality",
+      "location": "Albanyà, Alt Empordà",
+      "role": "Freelance Architect",
+      "description": "This is a construction appendix that I developed together with another colleague in collaboration with an architectural office from Figueras (www.grarq.com/ca). The hall is now built and it is fully functional. The project is representative for me because in this village I have spent most of my vacation days during my childhood."
+    },
+    {
+      "id": "freelance-joan-guell",
+      "show": true,
+      "thumbnail": "",
+      "link": "",
+      "images": 3,
+      "name": "Joan Güell",
+      "year": "2011",
+      "office": "Freelance",
+      "client": "Private",
+      "location": "Les Corts, Barcelona",
+      "role": "Freelance Architect",
+      "description": "This was a renovation project I did for a private client that was planing to renovate a family apartment to give to his son."
+    },
+    {
+      "id": "archi21-biblioteca-barcelona",
+      "show": true,
+      "thumbnail": "",
+      "link": "",
+      "images": 4,
+      "name": "Biblioteca Barcelona",
+      "year": "2011",
+      "office": "Archi21",
+      "client": "Barcelona municipality",
+      "location": "Ciutat Vella, Barcelona",
+      "role": "Practicant",
+      "description": "This was one of the last projects I worked on at Archi21 Architects in Barcelona. It was a small architect's office in a very nice square (Pl. Sant Vicens de Sarrià). As it had been 4 years since the financial crisis in Catalonia there were still many architect's offices without upcoming jobs, in this competition more than 400 propasals were presented."
+    },
+    {
+      "id": "erasmus-comprensive-design",
+      "show": true,
+      "thumbnail": "",
+      "link": "",
+      "images": 4,
+      "name": "Comprensive Design II",
+      "year": "207",
+      "office": "Erasmus, EU echange program",
+      "client": "My self",
+      "location": "Budapest",
+      "role": "Student",
+      "description": "I'm showing this design presentation because I had been on Erasmus in Budapest for a year. And I think it was a fun period of my career."
     }
-  ]
+  ]}
 }

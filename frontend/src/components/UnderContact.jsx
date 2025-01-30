@@ -1,11 +1,11 @@
-import { useState } from "react";
-import { FaCopy } from "react-icons/fa";
+import { useState } from 'react';
+import { FaCopy } from 'react-icons/fa';
 
 export const UnderContact = () => {
   const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText("arnauvidal@gmail.com");
+    navigator.clipboard.writeText('arnauvidal@gmail.com');
     setCopied(true);
     setTimeout(() => setCopied(false), 2000); // Reset after 2 seconds
   };
@@ -20,10 +20,8 @@ export const UnderContact = () => {
           className="text-white cursor-copy hover:text-gray-300 transition-colors"
         >
           arnauvidal@gmail.com
-        </p> {copied && (
-          <FaCopy className="text-sm text-gray-300 mt-2"/>
-          
-        )}
+        </p>{' '}
+        {copied && <FaCopy className="text-sm text-gray-300 mt-2" />}
       </div>
     </div>
   );
