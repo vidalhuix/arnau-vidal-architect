@@ -21,30 +21,29 @@ export const BtnDownload = () => {
   const { t } = useTranslation();
 
   const getFileName = () => {
-    const translatedText = t('download'); // Get the translated text
-    return `CV Arnau Vidal - ${translatedText}.pdf`;
+    return `CV Arnau Vidal - ${t("download")}.pdf`;
   };
 
   const getFilePath = () => {
-    const translatedText = t('download');
-    return `/public/pdf/CV Arnau Vidal - ${translatedText}.pdf`;
+    return `/pdf/CV Arnau Vidal - ${t("download")}.pdf`;
   };
 
-  const fileName = getFileName();
-  const filePath = getFilePath();
+  const handleDownload = () => {
+    const filePath = getFilePath();
+    window.open(filePath, "_blank");
+  };
 
   return (
     <div className="p-4">
-      <a
-        href={filePath}
-        download={fileName}
-        className="relative flex flex-row justify-center p-1 items-center px-4 py-2 border-gray-800  hover:scale-105  duration-100 group"
+      <button
+        onClick={handleDownload}
+        className="relative flex flex-row justify-center p-1 items-center px-4 py-2 border-gray-800 hover:scale-105 duration-100 group"
       >
-        <FaFileDownload size={42} className="fill-gray-800 " />
-        <span className="absolute hidden w-[300px] text-gray-800 font-semibold text-sm gray-200 overflow-hidden group-hover:block group-hover:animate-reveal pl-[200px]">
-          {fileName}
+        <FaFileDownload size={42} className="fill-gray-800" />
+        <span className="absolute hidden w-[300px] text-gray-800 font-semibold text-sm overflow-hidden group-hover:block group-hover:animate-reveal pl-[200px]">
+          {getFileName()}
         </span>
-      </a>
+      </button>
     </div>
   );
 };

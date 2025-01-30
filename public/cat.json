@@ -147,7 +147,7 @@
                 "office": "LINDBERG STENBERG Arkitekter",
                 "client": "PEAB",
                 "location": "Upplands Väsby",
-                "role": "Arquitecte",
+                "role": "",
                 "description": "7 mesos de treball. 12.380m², 73 apartaments de lloguer + 52 de venda."
             },
             {
@@ -161,7 +161,7 @@
                 "office": "LINDBERG STENBERG Arkitekter",
                 "client": "JM",
                 "location": "Kvarnholmen, Nacka",
-                "role": "Arquitecte",
+                "role": "",
                 "description": "27.000m². Aprox. 300 habitatges. Competició a Finnberget"
             },
             {
@@ -175,7 +175,7 @@
                 "office": "LINDBERG STENBERG Arkitekter",
                 "client": "JM",
                 "location": "Sigtuna",
-                "role": "Arquitecte",
+                "role": "",
                 "description": "20.000m². Aprox. 200 habitatges. Esbós d'explotació."
             },
             {
@@ -189,7 +189,7 @@
                 "office": "LINDBERG STENBERG Arkitekter",
                 "client": "Balder",
                 "location": "Göteborg",
-                "role": "Arquitecte",
+                "role": "",
                 "description": "12.270m². 191 apartaments. Esbós per a nova distribució de la planta tipus i projecte per a la llicencia d'obres."
             },
             {
@@ -232,7 +232,7 @@
                 "client": "Väsbyhem",
                 "location": "Upplands Väsby centrum",
                 "role": "Gestor del Model",
-                "description": "Gestor del model. Des de l'encàrrec del projecte, el bàsic, el document pel pla de projecte i el projecte executiu. 14.230m², 194 apartaments de lloguer. Planificació i disseny de tres nous edificis residencials."
+                "description": "Des de l'encàrrec del projecte, el bàsic, el document pel pla de projecte i el projecte executiu. 14.230m², 194 apartaments de lloguer. Planificació i disseny de tres nous edificis residencials."
             },
             {
                 "id": "arkitema-taby-park",
