@@ -1,31 +1,69 @@
-Tailwind CSS Vite React Boilerplate
+# 📌 Portfolio
 
-Quickly start new projects with Tailwind CSS and Vite.
+Welcome to my portfolio! This project showcases my latest work, skills, and projects. Built with React, it features a clean and modern UI.
 
-## Features
+## ✨ Features
 
-- Pre-configured Tailwind CSS.
-- Fast development with Vite (HMR).
-- Minimal setup.
+- 🖼️ **Projects Gallery** – Displays project photos and descriptions
+- 🔍 **Modal View** – Clicking on a project opens a slideshow with additional details
+- 📁 **Organized Assets** – Images are stored in `frontend/public/{project_id}/`
+- ⚡ **Fast & Responsive** – Optimized for smooth performance across devices
 
-## Getting Started
+## 🚀 Technologies Used
 
-1.  **Clone/Download:**
-    - **Template:** Use the "Use this template" button (if available).
-    - **Clone:** `git clone <repo_url> <project_name>`
-2.  **Install:** `npm install` (or `yarn install`)
-3.  **Start Dev Server:** `npm run dev` (or `yarn dev`)
+- React.js
+- Tailwind CSS (Styling)
+- React-icons (symbols)
+- i18next (translations)
+- Splidejs (image slides) 
 
-## Usage
+## 🛠️ Setup Instructions
 
-Extend the included `App.jsx` component using Tailwind classes.
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/your-portfolio.git
+   cd your-portfolio
+   ```
+2. Install dependencies:
+   ```sh
+   npm install  # For frontend
+   composer install  # For backend (if applicable)
+   ```
+3. Start the development server:
+   ```sh
+   npm run dev
+   ```
+4. Visit `http://localhost:3000` in your browser.
 
-## Notes
+## 📂 Folder Structure
 
-- `postcss.config.js` configures PostCSS (autoprefixer).
-- `tailwind.config.js` contains Tailwind settings.
-- See [Tailwind CSS Docs](https://tailwindcss.com/) and [Vite Docs](https://vitejs.dev/).
+```
+frontend/
+  ├── public/
+  │   ├── {project_id}/
+  │   │   ├── 01.jpg
+  │   │   ├── 02.jpg
+  │   │   ├── ...
+  │
+  ├── src/
+  │   ├── Components/
+  │   │   ├── Projects.jsx
+  │   │   ├── Modal.jsx
+  │
+backend/
+  ├── app/
+  ├── database/
+  ├── routes/
+```
 
-## Contributing
+## 📬 Contact
 
-Fork and improve! PRs welcome.
+If you have any questions or want to collaborate, feel free to reach out!
+
+📧 **Email:** your.email@example.com  
+🔗 **Website:** [yourwebsite.com](https://yourwebsite.com)  
+🐙 **GitHub:** [yourusername](https://github.com/yourusername)
+
+---
+
+🔹 _Built with passion and dedication!_ 🚀
