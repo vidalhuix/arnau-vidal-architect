@@ -29,13 +29,18 @@ export const Contact = () => {
             href="https://www.linkedin.com/in/arnau-vidal-4266a940/"
             target="_blank"
           >
-            <FaLinkedin size={50} className="cursor-pointer hover:scale-105 fill-[#9f1239]" />
+            <FaLinkedin
+              size={50}
+              className="cursor-pointer hover:scale-105 fill-[#9f1239]"
+            />
           </a>
           <div className="relative flex flex-col justify-center items-center  group cursor-pointer">
             <a
               href={filePath}
               download={fileName}
               className="relative flex flex-row justify-center p-1 items-center px-4 py-2 border-gray-800  hover:scale-105  duration-100 group"
+              aria-label={`Download ${getFileName()}`}
+              aria-describedby="file-name-tooltip"
             >
               <FaFileDownload size={42} className="fill-[#9f1239]  " />
               <span className="absolute hidden w-[300px] text-[#9f1239] font-semibold text-sm gray-200 overflow-hidden group-hover:block group-hover:animate-reveal pl-[200px]">
