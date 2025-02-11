@@ -1,4 +1,4 @@
-{   
+{
     "download": "Arkitekt",
     "sidenav": {
         "home": "Hem",
@@ -78,6 +78,18 @@
     "studies": {
         "title": "Utvildningar",
         "categories": [
+            {
+                "year": "2024",
+                "place": "Campusbokhandeln",
+                "duration": "3 månader",
+                "details": "Praktik där jag utvecklade en webbapplikation för att automatisera bokköp baserat på kursdata. Designade en databas, med stora datamängder och skapade funktioner för förbättrad UX. Sikta på att spara tid för personalen."
+            },
+            {
+                "year": "2023-2011",
+                "place": "Technigo Bootcamp",
+                "duration": "7 månader",
+                "details": "Intensiv utbildning inom webbutveckling. Gränssnittsutveckling med JavaScript (ES6), React. HTML5 och CSS3. Responsiv webbdesign och tillgänglighets-API:er och https-förfrågningar. Backend-programmering med Node.js och Express. Lagring av data med MongoDB-databas och Mongoose. Branschstandardverktyg för versionskontroll, distribution etc. metoder för teamworkutveckling och distansarbete.."
+            },
             {
                 "year": "2003-2011",
                 "place": "UPC ETSAV (Arkitektur Tekniska Högskola av Katalonia)",
@@ -345,7 +357,7 @@
                 "location": "Södertälje",
                 "role": "Modellansvarigt",
                 "description": "Ombyggnad av 316 hyreslagenheter."
-              },
+            },
             {
                 "id": "aedis-kv-klockarbacken",
                 "show": true,
@@ -414,7 +426,7 @@
                 "client": "Privat",
                 "location": "Les Corts, Barcelona",
                 "role": "Frilansarkitekt",
-                "description": "Detta var ett renoveringsprojekt för en privat kund som planerade att renovera en gammal lägenhet till sin son."
+                "description": "Detta var ett renoveringsprojekt för en privat kund som planerade att renovera en gammal lägenhet."
             },
             {
                 "id": "archi21-biblioteca-barcelona",

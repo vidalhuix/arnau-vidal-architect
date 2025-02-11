@@ -1,22 +1,6 @@
 import { FaEye, FaFileDownload } from 'react-icons/fa';
 import { useTranslation } from 'react-i18next';
 
-export const BtnLiveDemo = ({ homepage }) => {
-  return (
-    <div className="p-2 rounded-full bg-gray-800 no-underline hover:scale-105 ease-in duration-100 ">
-      <a
-        className="flex flex-row items-center "
-        href={homepage}
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <FaEye size={30} className="invert" />
-        <p className="text-sm text-white ml-2 whitespace-nowrap">Live demo</p>
-      </a>
-    </div>
-  );
-};
-
 export const BtnDownload = () => {
   const { t } = useTranslation();
 

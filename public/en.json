@@ -79,6 +79,18 @@
     "title": "Studies",
     "categories": [
       {
+        "year": "2024",
+        "place": "Campusbokhandeln",
+        "duration": "3 months",
+        "details": "Internship where I developed a web application to automate book purchases based on course data. Designed a database with large data volumes and created functions to enhance user experience. The goal was to save time for the staff."
+    },
+    {
+        "year": "2023-2011",
+        "place": "Technigo Bootcamp",
+        "duration": "7 months",
+        "details": "Intensive training in web development. Frontend development with JavaScript (ES6) and React. HTML5 and CSS3. Responsive web design and accessibility APIs, as well as HTTPS requests. Backend programming with Node.js and Express. Data storage using MongoDB database and Mongoose. Industry-standard tools for version control, deployment, etc. Methods for teamwork development and remote work."
+    },
+      {
         "year": "2003-2011",
         "place": "UPC ETSAV (Technical College of Architecture in Vallés, Catalonia)",
         "duration": "8 years",
@@ -414,7 +426,7 @@
       "client": "Private",
       "location": "Les Corts, Barcelona",
       "role": "Freelance Architect",
-      "description": "This was a renovation project I did for a private client that was planing to renovate a family apartment to give to his son."
+      "description": "This was a renovation project I did for a private client that was planing to renovate an apartment."
     },
     {
       "id": "archi21-biblioteca-barcelona",

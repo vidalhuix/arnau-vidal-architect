@@ -3,7 +3,7 @@ import { FaLink } from 'react-icons/fa6';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 
-const ProjectItem = ({ project, onClose }) => {
+export const ProjectItem = ({ project, onClose }) => {
   // Use the exact number of images from project data
   const images = Array.from({ length: project.images }, (_, i) => {
     const num = String(i + 1).padStart(2, '0'); // Formats as 01, 02, 03...
@@ -47,7 +47,8 @@ const ProjectItem = ({ project, onClose }) => {
         <div className="mt-4">
           <h2 className=" text-lg font-semibold">
             <span className="text-lg font-normal">{project.year} - </span>
-            {project.name}{" - "}
+            {project.name}
+            {' - '}
             {project.location}
           </h2>
           <span className="text-lg font-normal"> {project.role}</span>
@@ -63,4 +64,3 @@ const ProjectItem = ({ project, onClose }) => {
   );
 };
 
-export default ProjectItem;

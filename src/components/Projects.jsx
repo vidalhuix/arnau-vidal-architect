@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import ProjectItem from './ProjectItem';
+import { ProjectItem } from './ProjectItem';
 
 export const Projects = () => {
   const { t } = useTranslation();
@@ -27,7 +27,7 @@ export const Projects = () => {
                 src={`/${project.id}/Thumnail.jpg`}
                 alt={project.name}
                 loading="lazy"
-                className="w-full h-full object-cover opacity-70  group hover:opacity-100 ease-in filter grayscale-[0.4] transition-all duration-300"
+                className="w-full h-full object-cover opacity-60  group hover:opacity-100 ease-in filter grayscale-[0.4] transition-all duration-300"
               />
               <h2 className="absolute text-white  px-2 text-2xl text-shadow font-bold text-center group-hover:hidden">
                 {project.name}

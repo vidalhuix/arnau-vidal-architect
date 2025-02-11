@@ -79,6 +79,18 @@
         "title": "Estudis",
         "categories": [
             {
+                "year": "2024",
+                "place": "Campusbokhandeln",
+                "duration": "3 mesos",
+                "details": "Pràctiques on vaig desenvolupar una aplicació web per automatitzar la compra de llibres basada en dades de cursos. Vaig dissenyar una base de dades amb grans volums de dades i vaig crear funcions per millorar l'experiència d'usuari. L'objectiu era estalviar temps al personal."
+            },
+            {
+                "year": "2023-2011",
+                "place": "Technigo Bootcamp",
+                "duration": "7 mesos",
+                "details": "Formació intensiva en desenvolupament web. Desenvolupament d'interfícies amb JavaScript (ES6) i React. HTML5 i CSS3. Disseny web responsiu i API d'accessibilitat, així com peticions HTTPS. Programació backend amb Node.js i Express. Emmagatzematge de dades amb la base de dades MongoDB i Mongoose. Eines estàndard de la indústria per al control de versions, desplegament, etc. Mètodes per al treball en equip i el treball remot."
+            },
+            {
                 "year": "2003-2011",
                 "place": "UPC ETSAV",
                 "duration": "8 anys",
@@ -414,7 +426,7 @@
                 "client": "Privat",
                 "location": "Les Corts, Barcelona",
                 "role": "Arquitecte freelance",
-                "description": "Aquest va ser un projecte de reforma que vaig fer per a un client privat que planejava renovar un pis familiar per donar-lo al seu fill."
+                "description": "Aquest va ser un projecte de reforma que vaig fer per a un client privat que planejava renovar un pis."
               },
               {
                 "id": "archi21-biblioteca-barcelona",

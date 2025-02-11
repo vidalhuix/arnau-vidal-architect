@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { FaLinkedin, FaFileDownload } from 'react-icons/fa';
-import { useState } from 'react';
+
 
 export const Contact = () => {
   const { t } = useTranslation();
