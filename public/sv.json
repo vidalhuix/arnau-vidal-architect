@@ -82,13 +82,13 @@
                 "year": "2024",
                 "place": "Campusbokhandeln",
                 "duration": "3 månader",
-                "details": "Praktik där jag utvecklade en webbapplikation för att automatisera bokköp baserat på kursdata. Designade en databas, med stora datamängder och skapade funktioner för förbättrad UX. Sikta på att spara tid för personalen."
+                "details": "Praktik. Jag utvecklade en applikation för att automatisera bokköp baserat på kursdata. Designade en databas, med stora datamängder och skapade funktioner för förbättrad UX. Sikta på att spara tid för personalen."
             },
             {
                 "year": "2023-2011",
                 "place": "Technigo Bootcamp",
                 "duration": "7 månader",
-                "details": "Intensiv utbildning inom webbutveckling. Gränssnittsutveckling med JavaScript (ES6), React. HTML5 och CSS3. Responsiv webbdesign och tillgänglighets-API:er och https-förfrågningar. Backend-programmering med Node.js och Express. Lagring av data med MongoDB-databas och Mongoose. Branschstandardverktyg för versionskontroll, distribution etc. metoder för teamworkutveckling och distansarbete.."
+                "details": "Intensiv utbildning inom webbutveckling."
             },
             {
                 "year": "2003-2011",
