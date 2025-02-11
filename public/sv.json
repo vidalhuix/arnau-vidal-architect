@@ -16,7 +16,7 @@
     "presentation": {
         "intro": "Jag är en arkitekt med flera års erfarenhet av att leverera ",
         "highlight": "stora bostadsprojekt i BIM-miljöer med Revit. ",
-        "description": "Erfaren i alla designfaser och med stark förmåga att planera och hantera flera uppdrag samtidigt."
+        "description": "Erfaren i alla designfasen och med stark förmåga att planera och hantera flera uppdrag samtidigt."
     },
     "contact": {
         "title": "För mer"
@@ -49,7 +49,7 @@
             {
                 "category": "Erfarenhet & Kvalifikationer",
                 "items": [
-                    "Arkitekturexamen",
+                    "Arkitektexamen",
                     "12 års arbetslivserfarenhet:",
                     "+2 år som handledare",
                     "i stora projekt",
@@ -76,7 +76,7 @@
         ]
     },
     "studies": {
-        "title": "Utvildningar",
+        "title": "Utbildningar",
         "categories": [
             {
                 "year": "2024",
@@ -111,7 +111,7 @@
                 "year": "2022-2023",
                 "place": "LINDBERG STENBERG Arkitekter",
                 "duration": "7 månader",
-                "details": "Jag jobbade för det mästa som Model Ansvarigt Arkitekt"
+                "details": "Jag jobbade för det mesta som Modellansvarigt Arkitekt"
             },
             {
                 "year": "2016-2022",
@@ -230,7 +230,7 @@
                 "client": "Magnolia",
                 "location": "Sollentuna",
                 "role": "Handläggande Arkitekt",
-                "description": "Bostadsrättförening med ett totalt av 206 bostäder. Består av två kvarter med 3-våningshus + vind. Med gemensam trädgård och delat garage under marken. I ett nytt villakvarter vid Väsjön."
+                "description": "Bostadsrättsförening med ett totalt av 206 bostäder. Består av två kvarter med 3-våningshus + vind. Med gemensam trädgård och delat garage under marken. I ett nytt villakvarter vid Väsjön."
             },
             {
                 "id": "arkitema-ahusen",
@@ -244,7 +244,7 @@
                 "client": "Väsbyhem",
                 "location": "Upplands Väsby centrum",
                 "role": "Modellansvarig",
-                "description": "Från programhandling, systemsystemhandling och bygghandlingar. 14.230m², 194 hyreslägenheter. Planering och design av tre nya bostadshus."
+                "description": "Från programhandling, systemhandling och bygghandlingar. 14.230m², 194 hyreslägenheter. Planering och design av tre nya bostadshus."
             },
             {
                 "id": "arkitema-taby-park",
@@ -266,7 +266,7 @@
                 "thumbnail": "",
                 "link": "https://www.arkitema.com/se/projekt/lappis",
                 "images": 13,
-                "name": "Lappi's Student Housing",
+                "name": "Lappis Student Bostäder",
                 "year": "2018-2019",
                 "office": "ARKITEMA",
                 "client": "SSSB & PEAB",
@@ -286,7 +286,7 @@
                 "client": "Viktor Hanson",
                 "location": "Vega area, Haninge",
                 "role": "Modellansvarig",
-                "description": "Omfattning 7200m², 95 nya bostadsrättslägenheter. Planering och design av nytt bostadshus i nytt böstadsområde . Från första skisser, program handling, systemhandling, bygghandling + säljningsmaterial, bofakta mfl."
+                "description": "Omfattning 7200m², 95 nya bostadsrättslägenheter. Planering och design av nytt bostadshus i ett nytt bostadsområde . Från första skisser, programhandling, systemhandling, bygghandling + säljningsmaterial, bofakta mfl."
             },
             {
                 "id": "aedis-norra-stationsgatan",
@@ -356,7 +356,7 @@
                 "client": "Rikshem",
                 "location": "Södertälje",
                 "role": "Modellansvarigt",
-                "description": "Ombyggnad av 316 hyreslagenheter."
+                "description": "Ombyggnad av 316 hyreslägenheter."
             },
             {
                 "id": "aedis-kv-klockarbacken",
