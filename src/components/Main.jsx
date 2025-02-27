@@ -20,8 +20,8 @@ export default function Main() {
           <h1 className="sm:text-5xl my-4 text-4xl text-gray-800">
           {/* {t("main.greeting-1")} */}
           <br />
+            <span className="text-[#9f1239] font-bol"> Arnau Vidal</span>
           {t("main.greeting-2")}
-            <span className="text-[#9f1239]"> Arnau Vidal</span>
           </h1>
           <h1 className="sm:text-5xl font-bold text-4xl text-gray-800">
           {t("main.title")}
