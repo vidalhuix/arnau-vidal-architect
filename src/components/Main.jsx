@@ -18,7 +18,7 @@ export default function Main() {
       <div className="w-full hh-[75vh] absolute top-0 left-0 bg-white/5">
         <div className="m-auto pl-10 p-4 max-w-4xl h-full w-full flex flex-col justify-center items-start">
           <h1 className="sm:text-5xl my-4 text-4xl text-gray-800">
-          {t("main.greeting-1")}
+          {/* {t("main.greeting-1")} */}
           <br />
           {t("main.greeting-2")}
             <span className="text-[#9f1239]"> Arnau Vidal</span>
