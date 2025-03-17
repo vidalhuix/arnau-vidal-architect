@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import BackgroundMain from "/src/assets/bg-header.jpg";
+import BackgroundMain from "/src/assets/bg-header-2.jpg";
 import ProfileImg from "/src/assets/profile-pic.png";
 import { FaLinkedin } from "react-icons/fa";
 import { BtnDownload } from "./Buttons";
@@ -11,7 +11,7 @@ export default function Main() {
   return (
     <div id="main" className="relative">
       <img
-        className="w-full h-[75vh] object-cover object-left "
+        className="w-full h-[75vh] object-cover object-top opacity-70 z-0 scale-x-[-1]"
         src={BackgroundMain}
         alt="/"
       />
