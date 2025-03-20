@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import BackgroundMain from "/src/assets/bg-header-2.jpg";
-import ProfileImg from "/src/assets/profile-pic.png";
+import ProfileImg from "/src/assets/profile-pic.jpg";
 import { FaLinkedin } from "react-icons/fa";
 import { BtnDownload } from "./Buttons";
 
@@ -44,7 +44,8 @@ export default function Main() {
       <img
         src={ProfileImg}
         alt="profile image"
-        className=" bottom-11 absolute  right-4 w-[200px] translate-y-1/3 scale-x-[-1] md:mr-[25%]"
+        className=" bottom-11 absolute rounded-full border-4 white-blue-500 shadow-lg
+         right-4 w-[200px] translate-y-1/3 scale-x-[1] md:mr-[25%]"
       ></img>
     </div>
   );
