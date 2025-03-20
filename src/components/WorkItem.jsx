@@ -31,15 +31,15 @@ export const WorkItem = ({ year, place, duration, details, projects }) => {
                     {project.year}
                   </span>
                   <span className="  text-gray-700">{project.role}</span>
-                  <span className="my-1 text-sm font-normal leading-none text-stone-400">
+                  {/* <span className="my-1 text-sm font-normal leading-none text-stone-400">
                     Client:{' '}
-                  </span>
-                  <span className="text-gray-500">{project.client}</span>
+                  </span> */}
                   <p className="inline-block text-gray-500">
                     {project.description}
                     <span className=" text-stone-500">
                       {' '}
                       {project.location}.
+                  <span className="text-gray-500"> {project.client}.</span>
                     </span>
                   </p>
                 </li>
