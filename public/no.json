@@ -1,5 +1,5 @@
 {
-    "download": "Arkitekt",
+    "download": "Arkitekt.no",
     "sidenav": {
         "home": "Hjem",
         "projects": "Prosjekter",
@@ -238,7 +238,7 @@
                 "office": "ARKITEMA",
                 "client": "Väsbyhem",
                 "location": "Upplands Väsby centrum",
-                "role": "I designteamet og modellsjef",
+                "role": "I designteamet og modelansvarig",
                 "description": "Fra programhåndtering, systemhåndtering og byggearbeid. 14.230m², 194 leiligheter. Planlegging og design av tre nye boligbygg."
             },
             {
@@ -266,7 +266,7 @@
                 "office": "ARKITEMA",
                 "client": "SSSB & PEAB",
                 "location": "Läppkärrsberget Frescati, Stockholm",
-                "role": "I designteamet og modellsjef",
+                "role": "I designteamet og modelansvarig",
                 "description": "Konkurranseprosjekt på 800 studentleiligheter, 28 000 m². Sluttprosjekt 4 boligtårn med 145 studentleiligheter. Fra skisse, PH, SH, BH + BL og RH."
             },
             {
@@ -280,7 +280,7 @@
                 "office": "ARKITEMA",
                 "client": "Viktor Hanson",
                 "location": "Vega, Haninge",
-                "role": "I designteamet og modellsjef",
+                "role": "I designteamet og modelansvarig",
                 "description": "7200m², 95 nye sameieleiligheter. Planlegging og prosjektering av boligbygg i nytt boligområde. Fra første skisser, PH, SH, BH + salgsmateriell, boligfakta m.m."
             },
             {
@@ -350,7 +350,7 @@
                 "office": "AEDIS Arkitekter",
                 "client": "Rikshem",
                 "location": "Södertälje",
-                "role": "Medvirkende arkitekt, Modellsjef",
+                "role": "Medvirkende arkitekt, modelansvarig",
                 "description": "Ombygging av 316 utleieleiligheter."
             },
             {
@@ -364,7 +364,7 @@
                 "office": "AEDIS Arkitekter",
                 "client": "Einar Mattsson",
                 "location": "Huddinge Centrum",
-                "role": "Visualizer og modellsjef",
+                "role": "Visualizer og modelansvarig",
                 "description": "139 borettslagsleiligheter utformet i to leilighetstårn som deler de 3 første planløsningene. Med felles terrasse, gatelokaler og underjordisk garasje."
             },
             {
