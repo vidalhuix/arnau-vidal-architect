@@ -22,6 +22,11 @@ const router = createBrowserRouter([
     element: <App />,
     loader: () => i18n.changeLanguage("cat"),
   },
+  {
+    path: "/no",
+    element: <App />,
+    loader: () => i18n.changeLanguage("no"),
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

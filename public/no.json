@@ -1,142 +1,142 @@
 {
     "download": "Arkitekt",
     "sidenav": {
-        "home": "Hem",
-        "projects": "Projekt",
-        "skills": "Färdigheter",
-        "resume": "Karriär",
+        "home": "Hjem",
+        "projects": "Prosjekter",
+        "skills": "Ferdigheter",
+        "resume": "Karriere",
         "contact": "Kontakt"
     },
     "main": {
-        "greeting-1": "Hej,",
-        "greeting-2": ", portafölj.",
+        "greeting-1": "Hei,",
+        "greeting-2": ", portefølje.",
         "name": "Arnau Vidal",
         "title": "Arkitekt"
     },
     "presentation": {
-        "intro": "Jag är en arkitekt med flera års erfarenhet med projektering och leveransen av ",
-        "highlight": "stora projekt i BIM-miljöer med Revit. ",
-        "description": "Skicklig i alla skeden: projektering, gestaltning, planering, ledning och dokumentleverans."
+        "intro": "Jeg er en arkitekt med flere års erfaring med prosjektering og levering av ",
+        "highlight": "store prosjekter i BIM-miljøer med Revit. ",
+        "description": "Dyktig i alle faser: prosjektering, design, planlegging, ledelse og dokumentlevering. Villig for omplacering."
     },
     "contact": {
         "title": ""
     },
     "skills": {
-        "title": "Kompetenser",
+        "title": "Kompetanser",
         "categories": [
             {
-                "category": "Mjukvaruverktyg",
+                "category": "Programvareverktøy",
                 "items": [
                     "Revit",
                     "Naviate",
                     "Enscape",
                     "AutoCAD",
                     "Bluebeam",
-                    "Sketchup",
+                    "SketchUp",
                     "Solibri",
                     "Adobe Ps/Ai/iD/Ps"
                 ]
             },
             {
-                "category": "Miljöer",
+                "category": "Miljøer",
                 "items": [
                     "BIM",
                     "CAD",
-                    "Projektering",
-                    "BEAst granskning",
+                    "Prosjektering",
+                    "BEAst-gjennomgang",
                     "Google/Microsoft"
                 ]
             },
             {
-                "category": "Erfarenhet & Kvalifikationer",
+                "category": "Erfaring & Kvalifikasjoner",
                 "items": [
-                    "Arkitektexamen",
-                    "12 års arbetslivserfarenhet:",
-                    "+2 år som handledare",
-                    "i stora projekt",
-                    "i samarbete",
-                    "i processdesign och utveckling",
-                    "i planering och leverans"
+                    "Arkitektutdanning",
+                    "12 års arbeidserfaring:",
+                    "+2 år som veileder",
+                    "i store prosjekter",
+                    "i samarbeid",
+                    "i prosessdesign og utvikling",
+                    "i planlegging og levering"
                 ]
             },
             {
                 "category": "Språk",
                 "items": [
-                    "Svenska",
-                    "Engelska",
-                    "Katalanska",
-                    "Spanska"
+                    "Svensk",
+                    "Engelsk",
+                    "Katalansk",
+                    "Spansk"
                 ]
             },
             {
-                "category": "Övrigt",
+                "category": "Annet",
                 "items": [
-                    "Körkort B"
+                    "Førerkort klasse B"
                 ]
             }
         ]
     },
     "studies": {
-        "title": "Utbildningar",
+        "title": "Utdanning",
         "categories": [
             {
                 "year": "2023-2011",
                 "place": "Technigo Bootcamp",
-                "duration": "7 månader",
-                "details": "Intensiv utbildning inom webbutveckling."
+                "duration": "7 måneder",
+                "details": "Intensiv utdanning i webutvikling."
             },
             {
                 "year": "2003-2011",
-                "place": "UPC ETSAV (Arkitektur Tekniska Högskola av Katalonia)",
+                "place": "UPC ETSAV (Teknisk høyskole for arkitektur i Catalonia)",
                 "duration": "8 år",
-                "details": "Arkitekt karriärexamen + Master."
+                "details": "Arkitektutdanning + mastergrad."
             },
             {
                 "year": "2007-2008",
                 "place": "BME Budapest",
                 "duration": "1 år",
-                "details": "Europeiskt utbytesprogram, Erasmus."
+                "details": "Europeisk utvekslingsprogram, Erasmus."
             }
         ]
     },
     "work": {
-        "title": "Arbete",
+        "title": "Arbeid",
         "categories": [
             {
                 "year": "2022-2023",
                 "place": "LINDBERG STENBERG Arkitekter",
-                "duration": "7 månader",
-                "details": "Jag jobbade i projekteringsteamet."
+                "duration": "7 måneder",
+                "details": "Jeg jobbet i prosjekteringsteamet."
             },
             {
                 "year": "2016-2022",
                 "place": "ARKITEMA",
                 "duration": "6 år",
-                "details": "Utvecklade min kunskap inom bostadsbyggande, särskilt under systemhandling och bygghandling. Arbetade både som medverkande, modellansvarig och handlägande arkitekt. I BIM-miljöer med Revit."
+                "details": "Utviklet min kunnskap innen boligbygging, spesielt under systemhåndtering og byggefasen. Arbeidet både som medarbeider, modellansvarlig og saksbehandlende arkitekt i BIM-miljøer med Revit."
             },
             {
                 "year": "2014-2016",
                 "place": "AEDIS Arkitekter",
                 "duration": "2 år",
-                "details": "Arbetade i olika designstadier, från tidiga skeden till byggnadshandlingar. De flesta projekten baserades på ritningar från 3D-laserskanning och Revit-modellering."
+                "details": "Arbeidet i ulike designfaser, fra tidlige faser til byggetegninger. De fleste prosjektene var basert på tegninger fra 3D-laserskanning og Revit-modellering."
             },
             {
                 "year": "2012-2014",
                 "place": "ARGO Arkitekter",
                 "duration": "2 år",
-                "details": "Arbetade främst i tidiga skeden av projekten med fokus på bostäder, från privata villor till lägenhetshus och nya kvarter."
+                "details": "Arbeidet hovedsakelig i tidlige faser av prosjektene med fokus på boliger, fra private villaer til leilighetsbygg og nye kvartaler."
             },
             {
                 "year": "2011-2012",
-                "place": "Konsultarkitekt",
+                "place": "Konsulentarkitekt",
                 "duration": "1 år",
-                "details": "Renovering och visualisering bland annat av 'la Sala', en lokal och en lägenhet i Barcelona centrum."
+                "details": "Renovering og visualisering, blant annet av 'la Sala', en lokal og en leilighet i sentrum av Barcelona."
             },
             {
                 "year": "2010-2011",
                 "place": "ARCHI21 arkitektkontor",
                 "duration": "1,5 år",
-                "details": "Praktik. Tidiga skede, ritningar, modellering och visualiseringar. I en små arkitekt kontor i Barcelona"
+                "details": "Praksis. Tidlige faser, tegninger, modellering og visualiseringer i et lite arkitektkontor i Barcelona."
             }
         ]
     },
@@ -155,7 +155,7 @@
                 "client": "PEAB",
                 "location": "Upplands Väsby",
                 "role": "",
-                "description": "12.380m², 73 hyreslägenheter + 52 till salu."
+                "description": "12.380m², 73 utleieleiligheter + 52 til salgs"
             },
             {
                 "id": "lindberg-stenberg-finnberget",
@@ -169,7 +169,7 @@
                 "client": "JM",
                 "location": "Kvarnholmen, Nacka",
                 "role": "",
-                "description": "27.000m². Ca. 300 lägenheter. Tävling i Finnberget."
+                "description": "27.000m². Ca. 300 leiligheter. Konkurranse i Finnberget."
             },
             {
                 "id": "lindberg-stenberg-rordrommen",
@@ -183,7 +183,7 @@
                 "client": "JM",
                 "location": "Sigtuna",
                 "role": "",
-                "description": "20.000m². Ca. 200 lägenheter. Skiss för exploatering ."
+                "description": "20.000m². Ca. 200 leiligheter. Skisse for utnyttelse."
             },
             {
                 "id": "lindberg-stenberg-smorlottsgatan",
@@ -197,7 +197,7 @@
                 "client": "Balder",
                 "location": "Göteborg",
                 "role": "",
-                "description": "12.270m². 191 lägenheter. Skiss för nya planlösningar och BL."
+                "description": "12.270m². 191 leiligheter. Skisse til nye plantegninger og BL."
             },
             {
                 "id": "arkitema-korsangen",
@@ -210,8 +210,8 @@
                 "office": "ARKITEMA",
                 "client": "PEAB",
                 "location": "Enköping",
-                "role": "Handläggande Arkitekt",
-                "description": "Jag är stolt över att helt själv ha startat, skapat och levererat BH för det här projektet under tre månaders arbetstid. Projektet består av tre bostadshus och två lokaler med totalt 122 hyresrätter."
+                "role": "Ansvarlig arkitekt",
+                "description": "Jeg er stolt over å ha startet, laget og levert BH-er til dette prosjektet helt alene over en tre måneders arbeidsperiode. Prosjektet består av tre bolighus og to lokaler med til sammen 122 utleieleiligheter."
             },
             {
                 "id": "arkitema-vasjon",
@@ -224,8 +224,8 @@
                 "office": "ARKITEMA",
                 "client": "Magnolia",
                 "location": "Sollentuna",
-                "role": "Handläggande Arkitekt",
-                "description": "BRF med ett totalt av 206 bostäder. Består av två kvarter med 3-våningshus + vind. Med gemensam trädgård och delat garage under marken. I ett nytt villakvarter vid Väsjön."
+                "role": "Ansvarlig arkitekt",
+                "description": "BRF med totalt 206 boliger. Består av to kvartaler med 3-etasjes hus + loft. Med felles hage og delt garasje under bakken. I et nytt villakvartal ved Väsjön.."
             },
             {
                 "id": "arkitema-ahusen",
@@ -238,8 +238,8 @@
                 "office": "ARKITEMA",
                 "client": "Väsbyhem",
                 "location": "Upplands Väsby centrum",
-                "role": "I projekteringsteamet samt modellansvarig",
-                "description": "Från programhandling, systemhandling och bygghandlingar. 14.230m², 194 hyreslägenheter. Planering och design av tre nya bostadshus."
+                "role": "I designteamet og modellsjef",
+                "description": "Fra programhåndtering, systemhåndtering og byggearbeid. 14.230m², 194 leiligheter. Planlegging og design av tre nye boligbygg."
             },
             {
                 "id": "arkitema-taby-park",
@@ -252,8 +252,8 @@
                 "office": "ARKITEMA",
                 "client": "Viktor Hanson",
                 "location": "Täby park",
-                "role": "I projekteringsteamet",
-                "description": "Projekt på 12.000 m², 145 lägenheter + garage + 4 lokaler. Skiss, programhandling, systemdokumentation och bygglov & handlingar + säljmaterial för uppförande av ett bostadshus."
+                "role": "I designteamet",
+                "description": "Prosjekt på 12.000 m², 145 leiligheter + garasje + 4 lokaler. Skisse, programhåndtering, systemdokumentasjon og byggetillatelse & dokumentasjon + salgsmateriell for oppføring av et boligbygg."
             },
             {
                 "id": "arkitema-lappis-student-housing",
@@ -261,13 +261,13 @@
                 "thumbnail": "",
                 "link": "https://www.arkitema.com/se/projekt/lappis",
                 "images": 13,
-                "name": "Lappis Student Bostäder",
+                "name": "Lappis Studentboliger",
                 "year": "2018-2019",
                 "office": "ARKITEMA",
                 "client": "SSSB & PEAB",
                 "location": "Läppkärrsberget Frescati, Stockholm",
-                "role": "I projekteringsteamet samt modellansvarig",
-                "description": "Tävlingsprojekt av 800 studentlägenheter, 28.000 m². Slutprojekt 4 bostadstorn med 145 studentlägenheter. Från skiss, PH, SH, BH + BL and RH."
+                "role": "I designteamet og modellsjef",
+                "description": "Konkurranseprosjekt på 800 studentleiligheter, 28 000 m². Sluttprosjekt 4 boligtårn med 145 studentleiligheter. Fra skisse, PH, SH, BH + BL og RH."
             },
             {
                 "id": "arkitema-lingontuvan",
@@ -279,9 +279,9 @@
                 "year": "2017-2019",
                 "office": "ARKITEMA",
                 "client": "Viktor Hanson",
-                "location": "Vega area, Haninge",
-                "role": "I projekteringsteamet samt modellansvarig",
-                "description": "7200m², 95 nya bostadsrättslägenheter. Planering och design av bostadshus i ett nytt bostadsområde. Från första skisser, PH, SH, BH + säljningsmaterial, bofakta osv."
+                "location": "Vega, Haninge",
+                "role": "I designteamet og modellsjef",
+                "description": "7200m², 95 nye sameieleiligheter. Planlegging og prosjektering av boligbygg i nytt boligområde. Fra første skisser, PH, SH, BH + salgsmateriell, boligfakta m.m."
             },
             {
                 "id": "aedis-norra-stationsgatan",
@@ -294,8 +294,8 @@
                 "office": "AEDIS Arkitekter",
                 "client": "BRF Skålen 23",
                 "location": "Stockholm",
-                "role": "Medverkande Arkitekt",
-                "description": "Bostadsrättsförening som ville studera de ekonomiska fördelarna med att bygga ut byggnaden högt upp i sitt kvarter. För att få fler lägenheter."
+                "role": "Medvirkende arkitekt",
+                "description": "Borettslag som ønsket å utrede de økonomiske fordelene ved å bygge ut bygget høyt oppe i nabolaget sitt. For å få flere leiligheter."
             },
             {
                 "id": "aedis-ostra-sala-backe",
@@ -303,13 +303,13 @@
                 "thumbnail": "",
                 "link": "https://www.uppsala.se/contentassets/6384bb02ce0741a4804015cfc244aa33/planbeskrivning-laga-kraft.pdf",
                 "images": 7,
-                "name": "Tävling Östra Sala backe",
+                "name": "Konkurranse Östra Sala backe",
                 "year": "2015",
                 "office": "AEDIS Arkitekter",
                 "client": "Uppsala kommun",
                 "location": "Östra Sala Backe, Uppsala",
                 "role": "Arkitekt",
-                "description": "Land allocation competition."
+                "description": "Tomtefordelingskonkurranse."
             },
             {
                 "id": "aedis-midsommarkransen",
@@ -317,13 +317,13 @@
                 "thumbnail": "",
                 "link": "",
                 "images": [],
-                "name": "Tävling Midsommarkransen",
+                "name": "Konkurranse Midsommarkransen",
                 "year": "2015",
                 "office": "AEDIS Arkitekter",
-                "client": "Stockholms kommun",
+                "client": "Stockholms kommune",
                 "location": "Midsommarkransen, Stockholm",
                 "role": "Arkitekt",
-                "description": "Markanvisningstävling."
+                "description": "Tomtefordelingskonkurranse."
             },
             {
                 "id": "aedis-tyreso",
@@ -331,13 +331,13 @@
                 "thumbnail": "",
                 "link": "https://www.uppsala.se/contentassets/6384bb02ce0741a4804015cfc244aa33/planbeskrivning-laga-kraft.pdf",
                 "images": [],
-                "name": "Tävling Tyresö",
+                "name": "Konkurranse Tyresö",
                 "year": "2015",
                 "office": "AEDIS Arkitekter",
-                "client": "Tyresö kommun",
+                "client": "Tyresö kommune",
                 "location": "Tyresö",
                 "role": "Arkitekt",
-                "description": "Markanvisningstävling."
+                "description": "Tomtefordelingskonkurranse."
             },
             {
                 "id": "aedis-vastra-blombacka",
@@ -350,8 +350,8 @@
                 "office": "AEDIS Arkitekter",
                 "client": "Rikshem",
                 "location": "Södertälje",
-                "role": "Medverkande Arkitekt, Modellansvarigt",
-                "description": "Ombyggnad av 316 hyreslägenheter."
+                "role": "Medvirkende arkitekt, Modellsjef",
+                "description": "Ombygging av 316 utleieleiligheter."
             },
             {
                 "id": "aedis-kv-klockarbacken",
@@ -364,8 +364,8 @@
                 "office": "AEDIS Arkitekter",
                 "client": "Einar Mattsson",
                 "location": "Huddinge Centrum",
-                "role": "Visualiserare och Modellansvarig",
-                "description": "139 bostadsrättslägenheter utformade i två lägenhetstorn som delar de 3 första planlösningarna. Med gemensamt terrass, gatulokaler och undermark garage."
+                "role": "Visualizer og modellsjef",
+                "description": "139 borettslagsleiligheter utformet i to leilighetstårn som deler de 3 første planløsningene. Med felles terrasse, gatelokaler og underjordisk garasje."
             },
             {
                 "id": "argo-kv-medlemmen",
@@ -378,8 +378,8 @@
                 "office": "ARGO Arkitekter",
                 "client": "JM",
                 "location": "Årsta, Stockholm",
-                "role": "Medverkande Arkitekt",
-                "description": "Nytt bostadshus med underjordiskt garage, en förskola och butikslokaler."
+                "role": "Medvirkende arkitekt",
+                "description": "Nytt boligbygg med underjordisk garasje, barnehage og butikklokaler."
             },
             {
                 "id": "argo-kv-segelflyget",
@@ -392,8 +392,8 @@
                 "office": "ARGO Arkitekter",
                 "client": "JM",
                 "location": "Årsta, Stockholm",
-                "role": "Medverkande Arkitekt",
-                "description": "Nytt bostadshus med underjordiskt garage och butikslokaler i den nya stadsdelen Barkarby."
+                "role": "Medvirkende arkitekt",
+                "description": "Nytt bolighus med underjordisk garasje og handelsareal i nye Barkarby bydel."
             },
             {
                 "id": "freelance-sala-polivalent-albanya",
@@ -407,7 +407,7 @@
                 "client": "Albanyà kommun",
                 "location": "Albanyà, Alt Empordà",
                 "role": "Frilansarkitekt",
-                "description": "Detta är ett byggprojekt som jag utvecklade tillsammans med en vän i samarbete med en arkitektbyrå från Figueres (www.grarq.com/ca). Hallen är nu byggd och fullt fungerande. Projektet är viktigt för mig eftersom jag har tillbringat många av mina barndomssomrar i denna by."
+                "description": "Dette er et byggprosjekt som utvikles sammen med en venn i samarbeid med en arkitektbyrå fra Figueres (www.grarq.com/ca). Hallen er nu bygd og fullt fungerende. Prosjektet er viktig for meg fordi jeg har tilført mange av mine barndomssomrar i denne av."
             },
             {
                 "id": "freelance-joan-guell",
@@ -421,7 +421,7 @@
                 "client": "Privat",
                 "location": "Les Corts, Barcelona",
                 "role": "Frilansarkitekt",
-                "description": "Detta var ett renoveringsprojekt för en privat kund som planerade att renovera en gammal lägenhet."
+                "description": "Dette var et renoveringsprosjekt for en privat kunde som planlegges for å renovere en gammel leilighet."
             },
             {
                 "id": "archi21-biblioteca-barcelona",
@@ -429,13 +429,13 @@
                 "thumbnail": "",
                 "link": "https://maps.app.goo.gl/FELSGocjq8LSqrdV6",
                 "images": 4,
-                "name": "Tävling Biblioteca Barcelona",
+                "name": "Konkurranse Barcelona Bibliotek",
                 "year": "2011",
                 "office": "Archi21",
                 "client": "Barcelona kommun",
                 "location": "Ciutat Vella, Barcelona",
                 "role": "Praktikant",
-                "description": "Detta var ett av de sista projekten jag arbetade med på Archi21 Arkitekter i Barcelona. Det var ett litet arkitektkontor på ett mycket fint torg (Pl. Sant Vicens de Sarrià). Eftersom det hade gått fyra år sedan finanskrisen i Katalonien fanns det fortfarande många arkitektkontor utan uppdrag, och i denna tävling deltog mer än 400 förslag."
+                "description": "Dette var et av de siste prosjektene jeg jobbet med på Archi21 Arkitekter i Barcelona. Det var et lite arkitektkontor på et veldig fint torg (Pl. Sant Vicens de Sarrià). Siden finanskrisen i Katalonien hadde fire år siden fantes det fortsatt mange arkitektkontor uten oppdrag, og i denne konkurransen har det gått mer enn 400 forslag."
             },
             {
                 "id": "erasmus-comprensive-design",
@@ -449,7 +449,7 @@
                 "client": "",
                 "location": "Budapest",
                 "role": "Student",
-                "description": "Jag visar denna designpresentation eftersom jag var på Erasmus i Budapest i ett år. Det var en rolig och givande period i min karriär."
+                "description": "Jeg ser denne designpresentasjonen siden jeg var på Erasmus i Budapest i et år. Det var en rolig og gegende periode i min karier."
             }
         ]
     }
