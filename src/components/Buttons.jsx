@@ -1,4 +1,4 @@
-import { FaEye, FaFileDownload } from 'react-icons/fa';
+import { FaFileDownload } from 'react-icons/fa';
 import { useTranslation } from 'react-i18next';
 
 export const BtnDownload = () => {

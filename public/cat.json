@@ -429,6 +429,20 @@
                 "description": "Aquest va ser un projecte de reforma que vaig fer per a un client privat que planejava renovar un pis."
               },
               {
+                "id": "freelance-ash-shop-barcelona",
+                "show": true,
+                "thumbnail": "",
+                "link": "https://maps.app.goo.gl/TE894h7ea3jjCpwr6",
+                "images": 6,
+                "name": "ASH Barcelona",
+                "year": "2011",
+                "office": "Freelance",
+                "client": "Privat",
+                "location": "Les Corts, Barcelona",
+                "role": "Arquitecte freelance",
+                "description": "Reforma d'un local comercial al centre de Barcelona. El projecte es va dur a terme utilitzant com a referència l'estil web de l'empresa ASH en aquell moment."
+              },
+              {
                 "id": "archi21-biblioteca-barcelona",
                 "show": true,
                 "thumbnail": "",

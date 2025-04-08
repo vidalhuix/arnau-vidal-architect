@@ -424,6 +424,20 @@
                 "description": "Dette var et renoveringsprosjekt for en privat kunde som planlegges for å renovere en gammel leilighet."
             },
             {
+                "id": "freelance-ash-shop-barcelona",
+                "show": true,
+                "thumbnail": "",
+                "link": "https://maps.app.goo.gl/TE894h7ea3jjCpwr6",
+                "images": 6,
+                "name": "ASH Barcelona",
+                "year": "2011",
+                "office": "Frilans",
+                "client": "Privat",
+                "location": "L'Eixample, Barcelona",
+                "role": "Frilansarkitekt",
+                "description": "Detta var en renovering av en lokal i centrala Barcelona. Projektet genomfördes med ASH-företagets dåvarande webbplatsstil som referens."
+            },
+            {
                 "id": "archi21-biblioteca-barcelona",
                 "show": true,
                 "thumbnail": "",
