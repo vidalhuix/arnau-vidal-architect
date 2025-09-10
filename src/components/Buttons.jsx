@@ -5,11 +5,11 @@ export const BtnDownload = () => {
   const { t } = useTranslation();
 
   const getFileName = () => {
-    return `CV Arnau Vidal - ${t('download')}.pdf`;
+    return `CV Arnau Vidal ${t('download')}.pdf`;
   };
 
   const getFilePath = () => {
-    return `/pdf/CV Arnau Vidal - ${t('download')}.pdf`;
+    return `/pdf/CV Arnau Vidal ${t('download')}.pdf`;
   };
 
   const handleDownload = () => {

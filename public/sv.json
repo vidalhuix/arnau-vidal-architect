@@ -1,5 +1,5 @@
 {
-    "download": "Arkitekt",
+    "download": "(sv)",
     "sidenav": {
         "home": "Hem",
         "projects": "Projekt",
@@ -14,9 +14,9 @@
         "title": "Arkitekt"
     },
     "presentation": {
-        "intro": "Jag är en arkitekt med flera års erfarenhet med projektering och leveransen av ",
+        "intro": "Jag är en arkitekt med flera års projekteringserfarenhet och leveransen av ",
         "highlight": "stora projekt i BIM-miljöer med Revit. ",
-        "description": "Skicklig i alla skeden: projektering, gestaltning, planering, ledning och dokumentleverans."
+        "description": "Skicklig i alla skeden: projektering, gestaltning, planering, ledning och dokumentleverans. <br/>För narvarande läser jag en YH utbildningsprogram till VVS-ingenjör."
     },
     "contact": {
         "title": ""

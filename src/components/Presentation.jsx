@@ -1,4 +1,4 @@
-import { useTranslation } from "react-i18next";
+import { useTranslation,Trans} from "react-i18next";
 
 export const Presentation = () => {
   const { t } = useTranslation();
@@ -11,8 +11,7 @@ export const Presentation = () => {
           <span className="w-3 h-3 inline-block mr-2 rounded-full bg-[#9f1239]"></span>
           {t("presentation.intro")}
           <span className="font-bold">{t("presentation.highlight")}</span>
-          {t("presentation.description")}
-        </p>
+          <Trans i18nKey="presentation.description" />        </p>
       </div>
     </div>
   );

@@ -1,4 +1,4 @@
-import { useTranslation } from "react-i18next";
+import { useTranslation, Trans } from "react-i18next";
 import BackgroundMain from "/src/assets/bg-header-2.jpg";
 import ProfileImg from "/src/assets/profile-pic.jpg";
 import { FaLinkedin } from "react-icons/fa";

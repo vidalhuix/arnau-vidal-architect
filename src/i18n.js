@@ -17,6 +17,10 @@ i18n.use(initReactI18next).init({
   interpolation: {
     escapeValue: false, // React already escapes values to prevent XSS
   },
+    react: {
+    transSupportBasicHtmlNodes: true,
+    transKeepBasicHtmlNodesFor: ['br'],
+  },
 });
 
 export default i18n;
