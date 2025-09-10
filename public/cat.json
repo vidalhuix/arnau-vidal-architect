@@ -78,14 +78,15 @@
     "studies": {
         "title": "Estudis",
         "categories": [
-            {
-                "year": "2024",
-                "place": "Campusbokhandeln",
-                "duration": "3 mesos",
-                "details": "Pràctiques."
+                        {
+                "year": "2025-2027",
+                "place": "TUC Sweden - educació professional ingenyier d'instal.lacions.",
+                "duration": "Cursant.",
+                "details": "Dos anys d'estudis per ser ingenyier d'instal.lacions."
             },
+
             {
-                "year": "2023-2011",
+                "year": "2023-2014",
                 "place": "Technigo Bootcamp",
                 "duration": "7 mesos",
                 "details": "Formació intensiva en desenvolupament web. Desenvolupament d'interfícies amb JavaScript (ES6) i React. HTML5, CSS3 i molt més."

@@ -79,10 +79,16 @@
     "studies": {
         "title": "Utbildningar",
         "categories": [
+                        {
+                "year": "2025-2027",
+                "place": "TUC Sweden - YH utbildning VVS-ingenjör",
+                "duration": "Nuvarande",
+                "details": "Två års utbildning till VVS-ingenjör."
+            },
             {
-                "year": "2023-2011",
-                "place": "Technigo Bootcamp",
-                "duration": "7 månader",
+                "year": "2023-2024",
+                "place": "Technigo Bootcamp - YH Utbildning Webbutveckling + praktik",
+                "duration": "1 år",
                 "details": "Intensiv utbildning inom webbutveckling."
             },
             {
