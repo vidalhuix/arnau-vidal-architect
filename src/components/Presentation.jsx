@@ -9,7 +9,7 @@ export const Presentation = () => {
         <p className="text-xl text-gray-800">
           <span className="w-10 inline-block border-[#9f1239] border-t-[2px] bg-[#9f1239] align-middle"></span>
           <span className="w-3 h-3 inline-block mr-2 rounded-full bg-[#9f1239]"></span>
-          {t("presentation.intro")}
+          <Trans i18nKey="presentation.intro" parent={null} components={{ bold: <strong /> }}/>
           <span className="font-bold">{t("presentation.highlight")}</span>
           <Trans i18nKey="presentation.description" parent={null} components={{ bold: <strong /> }}/>        
         </p>
