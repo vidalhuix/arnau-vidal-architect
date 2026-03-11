@@ -44,7 +44,7 @@ export default function Main() {
       <img
         src={ProfileImg}
         alt="profile image"
-        className=" bottom-11 absolute rounded-full border-4 white-blue-500 shadow-lg
+        className=" bottom-11 absolute rounded-full border-4 border-white shadow-lg
          right-4 w-[200px] translate-y-1/3 scale-x-[1] md:mr-[25%]"
       ></img>
     </div>
